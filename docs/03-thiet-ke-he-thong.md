@@ -16,7 +16,7 @@ Mô-đun RAG
     |---------------- Dịch vụ LLM
 ```
 
-Tuần 1-5 mới làm mô-đun RAG dưới dạng chương trình dòng lệnh. Việc tách thành service giúp tái sử dụng trong REST API ở các tuần sau.
+Mô-đun RAG ban đầu chạy dưới dạng chương trình dòng lệnh. Các bước xử lý được tách thành service để tái sử dụng trong REST API của website.
 
 ## 2. Hai luồng chính
 
@@ -64,7 +64,7 @@ Các giá trị này được thử trên `rag-dev.json`. Sau khi chọn xong ph
 - Node.js 18 và JavaScript CommonJS để dễ học, dễ chạy.
 - Không dùng framework cho phần RAG ban đầu để nhìn rõ từng bước.
 - Vector store cục bộ lưu JSON trong Tuần 4-5; về sau có thể thay bằng vector store chính thức đã chọn mà không đổi luồng xử lý.
-- Embedding cục bộ dùng feature hashing để demo không tốn phí; có adapter gọi API embedding khi cấu hình khóa.
+- Embedding cục bộ dùng feature hashing để kiểm thử không tốn phí; có adapter gọi API embedding khi cấu hình khóa.
 - LLM có mô-đun gọi dịch vụ; khi chưa cấu hình, chế độ trích xuất tạo câu trả lời từ các câu liên quan nhất để kiểm tra luồng.
 
 ## 6. Rủi ro và cách xử lý

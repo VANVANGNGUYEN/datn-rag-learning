@@ -2,7 +2,7 @@
 
 ## 1. Phạm vi đã triển khai
 
-Giao diện được xây bằng HTML5, CSS3 và JavaScript thuần. Backend dùng Node.js, Express.js và MySQL đúng theo đề cương.
+Giao diện được xây bằng HTML5, CSS3 và JavaScript thuần. Backend dùng Node.js, Express.js và MySQL.
 
 | Chức năng | Học viên | Giảng viên | Quản trị viên |
 |---|---:|---:|---:|
@@ -97,9 +97,9 @@ Các tài khoản này chỉ dùng trên máy phát triển. Khi triển khai th
 | GET | `/api/admin/users` | Danh sách tài khoản |
 | PATCH | `/api/admin/users/:id/status` | Khóa hoặc mở tài khoản |
 
-## 7. Giới hạn của Tuần 6
+## 7. Chức năng chưa triển khai
 
 - Tài liệu mới được khai báo metadata, chưa có chức năng tải file lên server.
-- Chức năng sửa/xóa nội dung và ngân hàng câu hỏi thuộc các tuần sau.
-- Công thức đánh giá mức độ nắm vững triển khai ở Tuần 8.
-- Tài khoản demo chưa dùng cho môi trường công khai.
+- Chưa có chức năng sửa/xóa nội dung và giao diện ngân hàng câu hỏi.
+- Chưa có công thức đánh giá mức độ nắm vững theo chủ đề.
+- Tài khoản mẫu chỉ dùng trong môi trường phát triển cục bộ.

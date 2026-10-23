@@ -1,4 +1,4 @@
-# Cấu hình mô hình embedding và LLM có sẵn
+# Cấu hình dịch vụ embedding và LLM
 
 ## 1. Nguyên tắc
 
@@ -24,7 +24,7 @@ LLM_API_KEY=khong-dua-len-github
 LLM_MODEL=ten-mo-hinh-ngon-ngu
 ```
 
-Không ghi khóa thật vào `.env.example`, báo cáo, ảnh chụp hoặc GitHub.
+Khóa truy cập chỉ lưu trong `.env`. Tệp này đã được khai báo trong `.gitignore` và không được đưa lên GitHub hoặc ảnh chụp màn hình.
 
 ## 3. Kiểm tra kết nối
 
@@ -38,7 +38,7 @@ Lệnh chỉ được xem là thành công khi:
 - LLM trả về được nội dung;
 - terminal in đúng tên hai model đã cấu hình.
 
-## 4. Lập chỉ mục bằng embedding thật
+## 4. Lập chỉ mục bằng dịch vụ embedding
 
 ```powershell
 npm run index
@@ -53,7 +53,7 @@ npm run eval:retrieval
 
 File `data/vector-store/index.json` ghi lại provider, model và số chiều nên có thể kiểm tra chỉ mục được tạo bằng mô hình nào.
 
-## 5. Thực nghiệm LLM thật
+## 5. Đánh giá câu trả lời từ LLM
 
 Chạy thử 5 câu trước để kiểm tra chi phí và định dạng:
 
@@ -74,6 +74,6 @@ Mỗi câu được gọi hai lần với cùng LLM và nhiệt độ:
 
 Kết quả tự động lưu tại `data/evaluation/generation-results.json`. Phiếu `manual-evaluation.csv` dùng để chấm thủ công ba tiêu chí đúng kiến thức, bám nguồn và đầy đủ ý, mỗi tiêu chí từ 0 đến 2.
 
-## 6. Không thay số liệu bằng chế độ cục bộ
+## 6. Phạm vi của chế độ cục bộ
 
-Vector cục bộ và câu trả lời trích xuất chỉ dùng kiểm tra code. Báo cáo thực nghiệm chính thức phải ghi đúng tên model thật và lấy số liệu từ lệnh `eval:generation`. Nếu chưa có khóa dịch vụ thì để mục kết quả ở trạng thái chưa thực hiện, không tự tạo số liệu.
+Vector feature hashing và câu trả lời trích xuất chỉ dùng để kiểm tra luồng xử lý cục bộ. Kết quả này không thay thế kết quả của dịch vụ embedding và LLM. Khi chưa cấu hình dịch vụ, hệ thống chỉ ghi nhận các chỉ số retrieval của chế độ cục bộ.

@@ -25,7 +25,7 @@ Kết quả terminal cho biết số tài liệu, số chunk, loại embedding v
 
 - Chạy ngay, không cần Internet hoặc khóa API.
 - Biểu diễn từ và cặp từ bằng vector băm 4.096 chiều rồi chuẩn hóa. Số chiều này được chọn sau khi thử trên tập phát triển.
-- Phù hợp kiểm thử code và trình bày pipeline.
+- Phù hợp để kiểm tra quá trình chia chunk, tạo vector và truy xuất nguồn.
 - Hạn chế: hiểu ngữ nghĩa kém hơn mô hình embedding đã huấn luyện.
 
 ### Chế độ `api`

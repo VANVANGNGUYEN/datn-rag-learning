@@ -38,7 +38,7 @@ Trên trình duyệt, dùng `<script type="module" src="app.js"></script>`. Đư
 
 Trong Node.js, có thể dùng ES module khi file có đuôi `.mjs` hoặc `package.json` đặt `"type": "module"`. CommonJS dùng `require` và `module.exports`; không nên trộn hai hệ module tùy tiện trong cùng dự án.
 
-Nguyên mẫu Tuần 1-5 dùng CommonJS để lệnh Node.js dễ chạy. Frontend về sau có thể dùng ES module theo chuẩn trình duyệt.
+Backend hiện dùng CommonJS để các lệnh Node.js có cách chạy thống nhất. Phần JavaScript phía trình duyệt được tổ chức trong tệp riêng của giao diện.
 
 ## Dynamic import
 

@@ -43,7 +43,7 @@ Phần này sẽ triển khai từ Tuần 8. Dữ liệu câu hỏi ngay từ Tu
 - Mật khẩu không lưu dạng văn bản thuần.
 - Mỗi câu trả lời RAG phải có nguồn hoặc báo không đủ tài liệu.
 - Các tham số thực nghiệm phải ghi trong cấu hình và cố định trước khi chạy bộ test.
-- Mã nguồn chia thành các mô-đun nhỏ, tên biến rõ và sinh viên có thể giải thích.
+- Mã nguồn chia thành các mô-đun nhỏ, tên biến thể hiện đúng chức năng và các bước xử lý chính có thể kiểm tra độc lập.
 
 ## 5. Phạm vi dữ liệu đã chốt
 

@@ -17,7 +17,7 @@ Thư mục này là kết quả triển khai **Tuần 1 đến Tuần 6** của 
 
 - Node.js 18 trở lên.
 - Chạy `npm install` để cài các thư viện Node.js cần thiết.
-- API embedding và LLM là tùy chọn. Không có API, hệ thống vẫn chạy để minh họa đầy đủ luồng xử lý.
+- API embedding và LLM là tùy chọn. Khi chưa cấu hình API, hệ thống dùng chế độ cục bộ để kiểm tra luồng xử lý.
 - MySQL Server 8.0 trở lên và tài khoản `datn_app` để chạy website.
 
 ## Chạy lần đầu
@@ -58,7 +58,7 @@ npm run ask -- "Promise dùng để làm gì?" --topic bat-dong-bo
 
 ```text
 datn/
-├── docs/                 Tài liệu phân tích và nhật ký Tuần 1-6
+├── docs/                 Tài liệu phân tích, thiết kế và kết quả Tuần 1-6
 ├── database/             Schema MySQL, dữ liệu khởi tạo và mẫu tài khoản ứng dụng
 ├── documents/            Học liệu JavaScript dùng làm nguồn RAG
 ├── data/
@@ -66,7 +66,7 @@ datn/
 │   ├── generated/        Dữ liệu sinh ra sau npm run generate:data
 │   ├── vector-store/     Chỉ mục vector cục bộ
 │   └── evaluation/       Kết quả đánh giá retrieval
-├── public/               Giao diện HTML/CSS/JavaScript Tuần 6
+├── public/               Giao diện HTML/CSS/JavaScript
 ├── src/
     ├── lib/              Hàm xử lý văn bản
     ├── services/         Chunking, embedding, vector store, LLM, RAG
@@ -74,10 +74,10 @@ datn/
 └── server.js             Điểm khởi động Express
 ```
 
-## Lưu ý khi viết báo cáo
+## Giới hạn kỹ thuật hiện tại
 
-Embedding cục bộ trong bản Tuần 1-5 là vector đặc trưng từ vựng có băm 4.096 chiều. Con số này được chọn trên tập phát triển, đạt Hit@3 tốt hơn cấu hình 512 và 2.048 chiều. Nó chỉ giúp kiểm tra pipeline khi chưa cấu hình mô hình embedding có sẵn. Khi có dịch vụ mô hình, đổi `EMBEDDING_PROVIDER=api` mà không phải sửa luồng RAG. Cần trình bày rõ điểm này, không gọi giải pháp cục bộ là mô hình AI đã huấn luyện.
+Chế độ embedding cục bộ dùng feature hashing với vector 4.096 chiều. Cấu hình này đạt Hit@3 tốt hơn cấu hình 512 và 2.048 chiều trên tập phát triển. Feature hashing được dùng để kiểm tra pipeline trên máy cục bộ và không phải mô hình embedding đã huấn luyện. Khi có dịch vụ embedding, đặt `EMBEDDING_PROVIDER=api` rồi tạo lại chỉ mục.
 
-Xem [hướng dẫn demo](docs/05-truy-xuat-va-thuc-nghiem.md) để chuẩn bị phần trình bày.
+Quy trình truy xuất và kết quả đánh giá được ghi tại `docs/05-truy-xuat-va-thuc-nghiem.md`.
 
-Để chạy bằng mô hình thật, xem `docs/04a-cau-hinh-embedding-va-llm.md`. Hai lệnh chính là `npm run check:models` và `npm run eval:generation`.
+Hướng dẫn cấu hình dịch vụ embedding và LLM nằm trong `docs/04a-cau-hinh-embedding-va-llm.md`. Hai lệnh kiểm tra là `npm run check:models` và `npm run eval:generation`.

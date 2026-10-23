@@ -63,4 +63,4 @@ npm run validate:data
 - **Medium:** áp dụng một khái niệm vào đoạn mã ngắn.
 - **Hard:** phân tích kết quả, tìm lỗi hoặc kết hợp nhiều ý.
 
-Trong giai đoạn này, dữ liệu là bộ mẫu phục vụ đồ án. Trước khi dùng để khảo sát thật, sinh viên cần tự rà soát nội dung và nhờ giảng viên duyệt.
+Hiện tại đây là bộ dữ liệu mẫu phục vụ quá trình phát triển. Nội dung cần được rà soát lại trước khi sử dụng cho khảo sát thực tế.

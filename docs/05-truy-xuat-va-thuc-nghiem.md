@@ -39,11 +39,11 @@ Hit@k = số câu có nguồn đúng trong Top-k / tổng số câu
 
 Chi tiết lưu tại `data/evaluation/retrieval-results.json` để phân tích câu sai.
 
-## 4. Cách thử tham số đúng quy trình
+## 4. Thử và chọn tham số
 
 1. Chỉ dùng `rag-dev.json` để thử các giá trị chunk và Top-k.
 2. Ghi lại từng cấu hình và Hit@k.
-3. Chọn một cấu hình trước khi đánh giá chính thức.
+3. Chọn một cấu hình trước khi chạy tập test.
 4. Chạy đúng một cấu hình đã chốt trên `rag-test.json`.
 5. Không sửa tham số dựa trên kết quả của bộ test.
 
@@ -57,16 +57,16 @@ Kết quả chọn số chiều cho vector cục bộ trên tập phát triển 
 
 Vì vậy cấu hình cục bộ được chốt ở 4.096 chiều trước khi chạy bộ test chính thức. Khi chuyển sang mô hình embedding có sẵn, số chiều do mô hình quyết định và cần đánh giá lại trên tập phát triển.
 
-## 5. Phần chưa đánh giá ở Tuần 5
+## 5. Giới hạn đánh giá hiện tại
 
 Hit@k chỉ đo bước tìm nguồn, chưa kết luận câu trả lời của LLM là đúng. Ở giai đoạn thực nghiệm đầy đủ cần đánh giá thêm: độ đúng so với đáp án chuẩn, mức bám nguồn, thông tin ngoài nguồn và thời gian phản hồi.
 
-Mã thực nghiệm LLM thật đã được chuẩn bị bằng lệnh `npm run eval:generation`. Lệnh này không chấp nhận embedding cục bộ và sẽ dừng nếu thiếu cấu hình API, nhờ đó tránh đưa kết quả mô phỏng vào báo cáo như kết quả mô hình thật.
+Lệnh `npm run eval:generation` chỉ hoạt động khi đã cấu hình dịch vụ embedding và LLM. Nếu thiếu cấu hình API, chương trình dừng và không tạo kết quả đánh giá sinh câu trả lời.
 
-## 6. Kịch bản demo ngắn
+## 6. Kiểm tra thủ công
 
-1. Giới thiệu một tài liệu trong `documents`.
-2. Chạy `npm run index`, giải thích chunk, embedding và metadata.
-3. Hỏi một câu không lọc topic, xem ba nguồn được lấy.
-4. Hỏi lại với `--topic` để minh họa giới hạn phạm vi.
-5. Chạy đánh giá retrieval và mở file kết quả của một câu.
+1. Mở một tài liệu trong thư mục `documents`.
+2. Chạy `npm run index` và kiểm tra chunk, embedding, metadata.
+3. Đặt một câu hỏi không lọc chủ đề và kiểm tra ba nguồn được truy xuất.
+4. Đặt lại câu hỏi với `--topic` và so sánh phạm vi nguồn.
+5. Chạy đánh giá retrieval và đối chiếu một bản ghi trong file kết quả.
