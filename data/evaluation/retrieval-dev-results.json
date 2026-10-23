@@ -1,0 +1,519 @@
+{
+  "evaluated_at": "2026-10-23T03:06:19.610Z",
+  "dataset": "dev",
+  "configuration": {
+    "top_k": 3,
+    "chunk_size": 700,
+    "chunk_overlap": 120,
+    "embedding_provider": "local",
+    "embedding_model": "feature-hashing-v1"
+  },
+  "summary": {
+    "total": 20,
+    "hits": 19,
+    "hit_at_k": 0.95,
+    "mean_reciprocal_rank": 0.8583
+  },
+  "results": [
+    {
+      "test_id": "RD-01-01",
+      "topic": "bien-va-kieu-du-lieu",
+      "question": "Hãy giải thích ngắn gọn khái niệm “const” khi học JavaScript.",
+      "gold_source": "documents/01-bien-va-kieu-du-lieu.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Giá trị và tham chiếu",
+          "score": 0.267336
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Destructuring",
+          "score": 0.210526
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "map, filter và reduce",
+          "score": 0.185123
+        }
+      ]
+    },
+    {
+      "test_id": "RD-01-02",
+      "topic": "bien-va-kieu-du-lieu",
+      "question": "Hãy giải thích ngắn gọn khái niệm “typeof” khi học JavaScript.",
+      "gold_source": "documents/01-bien-va-kieu-du-lieu.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "typeof, NaN và chuyển kiểu",
+          "score": 0.121212
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.073734
+        }
+      ]
+    },
+    {
+      "test_id": "RD-02-01",
+      "topic": "cau-lenh-dieu-kien",
+      "question": "Hãy giải thích ngắn gọn khái niệm “else if” khi học JavaScript.",
+      "gold_source": "documents/02-cau-lenh-dieu-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "if, else if và else",
+          "score": 0.422303
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Giá trị truthy và falsy",
+          "score": 0.157764
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Optional chaining và guard clause",
+          "score": 0.14423
+        }
+      ]
+    },
+    {
+      "test_id": "RD-02-02",
+      "topic": "cau-lenh-dieu-kien",
+      "question": "Hãy giải thích ngắn gọn khái niệm “switch” khi học JavaScript.",
+      "gold_source": "documents/02-cau-lenh-dieu-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "switch",
+          "score": 0.125291
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.073734
+        }
+      ]
+    },
+    {
+      "test_id": "RD-03-01",
+      "topic": "vong-lap",
+      "question": "Hãy giải thích ngắn gọn khái niệm “while” khi học JavaScript.",
+      "gold_source": "documents/03-vong-lap.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "while và do...while",
+          "score": 0.11299
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.073734
+        }
+      ]
+    },
+    {
+      "test_id": "RD-03-02",
+      "topic": "vong-lap",
+      "question": "Hãy giải thích ngắn gọn khái niệm “forEach” khi học JavaScript.",
+      "gold_source": "documents/03-vong-lap.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "forEach và các phương thức mảng",
+          "score": 0.180517
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.073734
+        }
+      ]
+    },
+    {
+      "test_id": "RD-04-01",
+      "topic": "ham",
+      "question": "Hãy giải thích ngắn gọn khái niệm “function expression” khi học JavaScript.",
+      "gold_source": "documents/04-ham.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Khai báo hàm và biểu thức hàm",
+          "score": 0.361532
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Arrow function",
+          "score": 0.180989
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Tham số, giá trị mặc định và rest parameter",
+          "score": 0.155936
+        }
+      ]
+    },
+    {
+      "test_id": "RD-04-02",
+      "topic": "ham",
+      "question": "Hãy giải thích ngắn gọn khái niệm “callback” khi học JavaScript.",
+      "gold_source": "documents/04-ham.md",
+      "hit": false,
+      "rank": null,
+      "retrieved": [
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Callback",
+          "score": 0.356348
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Đồng bộ, bất đồng bộ và event loop",
+          "score": 0.269031
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        }
+      ]
+    },
+    {
+      "test_id": "RD-05-01",
+      "topic": "mang",
+      "question": "Hãy giải thích ngắn gọn khái niệm “push và pop” khi học JavaScript.",
+      "gold_source": "documents/05-mang.md",
+      "hit": true,
+      "rank": 2,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.118237
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Thêm và xóa phần tử",
+          "score": 0.095523
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.062454
+        }
+      ]
+    },
+    {
+      "test_id": "RD-05-02",
+      "topic": "mang",
+      "question": "Hãy giải thích ngắn gọn khái niệm “reduce” khi học JavaScript.",
+      "gold_source": "documents/05-mang.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/05-mang.md",
+          "heading": "map, filter và reduce",
+          "score": 0.092561
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.073734
+        }
+      ]
+    },
+    {
+      "test_id": "RD-06-01",
+      "topic": "doi-tuong",
+      "question": "Hãy giải thích ngắn gọn khái niệm “dấu chấm” khi học JavaScript.",
+      "gold_source": "documents/06-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Object literal và thuộc tính",
+          "score": 0.124343
+        },
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "DOM là gì",
+          "score": 0.102279
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Phạm vi của biến",
+          "score": 0.092873
+        }
+      ]
+    },
+    {
+      "test_id": "RD-06-02",
+      "topic": "doi-tuong",
+      "question": "Hãy giải thích ngắn gọn khái niệm “object destructuring” khi học JavaScript.",
+      "gold_source": "documents/06-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Duyệt thuộc tính",
+          "score": 0.187343
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Sao chép và destructuring",
+          "score": 0.128465
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Destructuring",
+          "score": 0.126597
+        }
+      ]
+    },
+    {
+      "test_id": "RD-07-01",
+      "topic": "lop-va-huong-doi-tuong",
+      "question": "Hãy giải thích ngắn gọn khái niệm “constructor” khi học JavaScript.",
+      "gold_source": "documents/07-lop-va-huong-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Kế thừa với extends và super",
+          "score": 0.155758
+        },
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Khai báo class và constructor",
+          "score": 0.117736
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        }
+      ]
+    },
+    {
+      "test_id": "RD-07-02",
+      "topic": "lop-va-huong-doi-tuong",
+      "question": "Hãy giải thích ngắn gọn khái niệm “private field” khi học JavaScript.",
+      "gold_source": "documents/07-lop-va-huong-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Trường private",
+          "score": 0.119523
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Method và this",
+          "score": 0.114482
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Object literal và thuộc tính",
+          "score": 0.113039
+        }
+      ]
+    },
+    {
+      "test_id": "RD-08-01",
+      "topic": "bat-dong-bo",
+      "question": "Hãy giải thích ngắn gọn khái niệm “callback bất đồng bộ” khi học JavaScript.",
+      "gold_source": "documents/08-bat-dong-bo.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Callback",
+          "score": 0.342857
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Đồng bộ, bất đồng bộ và event loop",
+          "score": 0.215705
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Promise",
+          "score": 0.098986
+        }
+      ]
+    },
+    {
+      "test_id": "RD-08-02",
+      "topic": "bat-dong-bo",
+      "question": "Hãy giải thích ngắn gọn khái niệm “Promise.all” khi học JavaScript.",
+      "gold_source": "documents/08-bat-dong-bo.md",
+      "hit": true,
+      "rank": 3,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.073734
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Chạy tuần tự và song song",
+          "score": 0.056193
+        }
+      ]
+    },
+    {
+      "test_id": "RD-09-01",
+      "topic": "module",
+      "question": "Hãy giải thích ngắn gọn khái niệm “export” khi học JavaScript.",
+      "gold_source": "documents/09-module.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/09-module.md",
+          "heading": "Default export",
+          "score": 0.250859
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Named export và named import",
+          "score": 0.186908
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        }
+      ]
+    },
+    {
+      "test_id": "RD-09-02",
+      "topic": "module",
+      "question": "Hãy giải thích ngắn gọn khái niệm “CommonJS” khi học JavaScript.",
+      "gold_source": "documents/09-module.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/09-module.md",
+          "heading": "ES module trên trình duyệt và Node.js",
+          "score": 0.092785
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Dynamic import",
+          "score": 0.076472
+        }
+      ]
+    },
+    {
+      "test_id": "RD-10-01",
+      "topic": "dom-va-su-kien",
+      "question": "Hãy giải thích ngắn gọn khái niệm “querySelector” khi học JavaScript.",
+      "gold_source": "documents/10-dom-va-su-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "DOM là gì",
+          "score": 0.127564
+        },
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "Thay đổi nội dung an toàn",
+          "score": 0.08055
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.077894
+        }
+      ]
+    },
+    {
+      "test_id": "RD-10-02",
+      "topic": "dom-va-su-kien",
+      "question": "Hãy giải thích ngắn gọn khái niệm “target và currentTarget” khi học JavaScript.",
+      "gold_source": "documents/10-dom-va-su-kien.md",
+      "hit": true,
+      "rank": 3,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "JSON",
+          "score": 0.062454
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.059118
+        },
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "Lắng nghe sự kiện",
+          "score": 0.027603
+        }
+      ]
+    }
+  ]
+}

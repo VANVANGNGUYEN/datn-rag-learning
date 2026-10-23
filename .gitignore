@@ -1,0 +1,10 @@
+.env
+database/create-app-user.sql
+node_modules/
+data/vector-store/*.json
+data/evaluation/*.json
+data/evaluation/*.csv
+!data/vector-store/.gitkeep
+!data/evaluation/.gitkeep
+!data/evaluation/retrieval-dev-results.json
+!data/evaluation/retrieval-results.json

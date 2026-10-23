@@ -1,0 +1,142 @@
+[
+  {
+    "test_id": "RD-01-01",
+    "topic": "bien-va-kieu-du-lieu",
+    "question": "Hãy giải thích ngắn gọn khái niệm “const” khi học JavaScript.",
+    "gold_answer": "const khai báo biến có phạm vi khối và không cho phép gán lại chính biến đó.",
+    "gold_source": "documents/01-bien-va-kieu-du-lieu.md"
+  },
+  {
+    "test_id": "RD-01-02",
+    "topic": "bien-va-kieu-du-lieu",
+    "question": "Hãy giải thích ngắn gọn khái niệm “typeof” khi học JavaScript.",
+    "gold_answer": "typeof trả về tên kiểu dưới dạng chuỗi, nhưng typeof null có kết quả lịch sử là object.",
+    "gold_source": "documents/01-bien-va-kieu-du-lieu.md"
+  },
+  {
+    "test_id": "RD-02-01",
+    "topic": "cau-lenh-dieu-kien",
+    "question": "Hãy giải thích ngắn gọn khái niệm “else if” khi học JavaScript.",
+    "gold_answer": "else if kiểm tra điều kiện bổ sung khi các nhánh trước chưa được chọn.",
+    "gold_source": "documents/02-cau-lenh-dieu-kien.md"
+  },
+  {
+    "test_id": "RD-02-02",
+    "topic": "cau-lenh-dieu-kien",
+    "question": "Hãy giải thích ngắn gọn khái niệm “switch” khi học JavaScript.",
+    "gold_answer": "switch phù hợp khi so sánh một biểu thức với nhiều giá trị xác định và thường cần break ở mỗi case.",
+    "gold_source": "documents/02-cau-lenh-dieu-kien.md"
+  },
+  {
+    "test_id": "RD-03-01",
+    "topic": "vong-lap",
+    "question": "Hãy giải thích ngắn gọn khái niệm “while” khi học JavaScript.",
+    "gold_answer": "while kiểm tra điều kiện trước mỗi lần lặp nên có thể không chạy lần nào.",
+    "gold_source": "documents/03-vong-lap.md"
+  },
+  {
+    "test_id": "RD-03-02",
+    "topic": "vong-lap",
+    "question": "Hãy giải thích ngắn gọn khái niệm “forEach” khi học JavaScript.",
+    "gold_answer": "forEach gọi callback cho từng phần tử, không tạo mảng mới và không hỗ trợ break để dừng sớm.",
+    "gold_source": "documents/03-vong-lap.md"
+  },
+  {
+    "test_id": "RD-04-01",
+    "topic": "ham",
+    "question": "Hãy giải thích ngắn gọn khái niệm “function expression” khi học JavaScript.",
+    "gold_answer": "Function expression gán một hàm vào biến và chỉ dùng được sau khi biến được khởi tạo.",
+    "gold_source": "documents/04-ham.md"
+  },
+  {
+    "test_id": "RD-04-02",
+    "topic": "ham",
+    "question": "Hãy giải thích ngắn gọn khái niệm “callback” khi học JavaScript.",
+    "gold_answer": "Callback là hàm được truyền cho hàm khác để được gọi trong quá trình xử lý hoặc khi có kết quả.",
+    "gold_source": "documents/04-ham.md"
+  },
+  {
+    "test_id": "RD-05-01",
+    "topic": "mang",
+    "question": "Hãy giải thích ngắn gọn khái niệm “push và pop” khi học JavaScript.",
+    "gold_answer": "push thêm phần tử vào cuối mảng, còn pop xóa và trả về phần tử cuối.",
+    "gold_source": "documents/05-mang.md"
+  },
+  {
+    "test_id": "RD-05-02",
+    "topic": "mang",
+    "question": "Hãy giải thích ngắn gọn khái niệm “reduce” khi học JavaScript.",
+    "gold_answer": "reduce gộp các phần tử thành một giá trị thông qua accumulator.",
+    "gold_source": "documents/05-mang.md"
+  },
+  {
+    "test_id": "RD-06-01",
+    "topic": "doi-tuong",
+    "question": "Hãy giải thích ngắn gọn khái niệm “dấu chấm” khi học JavaScript.",
+    "gold_answer": "Cú pháp dấu chấm phù hợp khi tên thuộc tính đã biết trước và là tên hợp lệ.",
+    "gold_source": "documents/06-doi-tuong.md"
+  },
+  {
+    "test_id": "RD-06-02",
+    "topic": "doi-tuong",
+    "question": "Hãy giải thích ngắn gọn khái niệm “object destructuring” khi học JavaScript.",
+    "gold_answer": "Object destructuring lấy thuộc tính theo tên và có thể đổi tên hoặc đặt giá trị mặc định.",
+    "gold_source": "documents/06-doi-tuong.md"
+  },
+  {
+    "test_id": "RD-07-01",
+    "topic": "lop-va-huong-doi-tuong",
+    "question": "Hãy giải thích ngắn gọn khái niệm “constructor” khi học JavaScript.",
+    "gold_answer": "constructor được gọi khi tạo instance bằng new và thường gán trạng thái ban đầu.",
+    "gold_source": "documents/07-lop-va-huong-doi-tuong.md"
+  },
+  {
+    "test_id": "RD-07-02",
+    "topic": "lop-va-huong-doi-tuong",
+    "question": "Hãy giải thích ngắn gọn khái niệm “private field” khi học JavaScript.",
+    "gold_answer": "Tên bắt đầu bằng # tạo trường private chỉ truy cập được trong thân class.",
+    "gold_source": "documents/07-lop-va-huong-doi-tuong.md"
+  },
+  {
+    "test_id": "RD-08-01",
+    "topic": "bat-dong-bo",
+    "question": "Hãy giải thích ngắn gọn khái niệm “callback bất đồng bộ” khi học JavaScript.",
+    "gold_answer": "Callback bất đồng bộ là hàm được gọi sau khi một thao tác hoặc thời điểm đã hoàn thành.",
+    "gold_source": "documents/08-bat-dong-bo.md"
+  },
+  {
+    "test_id": "RD-08-02",
+    "topic": "bat-dong-bo",
+    "question": "Hãy giải thích ngắn gọn khái niệm “Promise.all” khi học JavaScript.",
+    "gold_answer": "Promise.all chờ tất cả Promise thành công nhưng reject ngay khi một Promise reject.",
+    "gold_source": "documents/08-bat-dong-bo.md"
+  },
+  {
+    "test_id": "RD-09-01",
+    "topic": "module",
+    "question": "Hãy giải thích ngắn gọn khái niệm “export” khi học JavaScript.",
+    "gold_answer": "export công khai giá trị từ một module để module khác có thể import.",
+    "gold_source": "documents/09-module.md"
+  },
+  {
+    "test_id": "RD-09-02",
+    "topic": "module",
+    "question": "Hãy giải thích ngắn gọn khái niệm “CommonJS” khi học JavaScript.",
+    "gold_answer": "CommonJS dùng require và module.exports, phổ biến trong nhiều dự án Node.js.",
+    "gold_source": "documents/09-module.md"
+  },
+  {
+    "test_id": "RD-10-01",
+    "topic": "dom-va-su-kien",
+    "question": "Hãy giải thích ngắn gọn khái niệm “querySelector” khi học JavaScript.",
+    "gold_answer": "querySelector trả phần tử đầu tiên khớp CSS selector hoặc null nếu không tìm thấy.",
+    "gold_source": "documents/10-dom-va-su-kien.md"
+  },
+  {
+    "test_id": "RD-10-02",
+    "topic": "dom-va-su-kien",
+    "question": "Hãy giải thích ngắn gọn khái niệm “target và currentTarget” khi học JavaScript.",
+    "gold_answer": "event.target là nơi phát sinh sự kiện, còn currentTarget là phần tử đang chạy listener.",
+    "gold_source": "documents/10-dom-va-su-kien.md"
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "question_id": "Q-T01-001",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “let” trong JavaScript?",
+    "options": [
+      "let khai báo biến có phạm vi khối và cho phép gán lại giá trị.",
+      "const khai báo biến có phạm vi khối và không cho phép gán lại chính biến đó.",
+      "Biến let hoặc const khai báo trong cặp ngoặc nhọn chỉ tồn tại trong khối đó.",
+      "null là giá trị được gán chủ động để biểu diễn không có dữ liệu."
+    ],
+    "correct_option": "A",
+    "correct_answer": "let khai báo biến có phạm vi khối và cho phép gán lại giá trị.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "let khai báo biến có phạm vi khối và cho phép gán lại giá trị."
+  },
+  {
+    "question_id": "Q-T01-002",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “const” trong JavaScript?",
+    "options": [
+      "var có phạm vi hàm, cho phép khai báo lại và thường được hạn chế trong mã JavaScript hiện đại.",
+      "const khai báo biến có phạm vi khối và không cho phép gán lại chính biến đó.",
+      "Các kiểu nguyên thủy gồm string, number, boolean, undefined, null, bigint và symbol.",
+      "typeof trả về tên kiểu dưới dạng chuỗi, nhưng typeof null có kết quả lịch sử là object."
+    ],
+    "correct_option": "B",
+    "correct_answer": "const khai báo biến có phạm vi khối và không cho phép gán lại chính biến đó.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "const khai báo biến có phạm vi khối và không cho phép gán lại chính biến đó."
+  },
+  {
+    "question_id": "Q-T01-003",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “var” trong JavaScript?",
+    "options": [
+      "Biến let hoặc const khai báo trong cặp ngoặc nhọn chỉ tồn tại trong khối đó.",
+      "undefined thường biểu diễn một biến hoặc thuộc tính chưa được gán giá trị.",
+      "var có phạm vi hàm, cho phép khai báo lại và thường được hạn chế trong mã JavaScript hiện đại.",
+      "Toán tử === so sánh cả giá trị và kiểu mà không tự chuyển kiểu trước khi so sánh."
+    ],
+    "correct_option": "C",
+    "correct_answer": "var có phạm vi hàm, cho phép khai báo lại và thường được hạn chế trong mã JavaScript hiện đại.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "var có phạm vi hàm, cho phép khai báo lại và thường được hạn chế trong mã JavaScript hiện đại."
+  },
+  {
+    "question_id": "Q-T01-004",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “phạm vi khối” trong JavaScript?",
+    "options": [
+      "Các kiểu nguyên thủy gồm string, number, boolean, undefined, null, bigint và symbol.",
+      "null là giá trị được gán chủ động để biểu diễn không có dữ liệu.",
+      "Template literal dùng dấu backtick và chèn biểu thức bằng cú pháp ${...}.",
+      "Biến let hoặc const khai báo trong cặp ngoặc nhọn chỉ tồn tại trong khối đó."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Biến let hoặc const khai báo trong cặp ngoặc nhọn chỉ tồn tại trong khối đó.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "Biến let hoặc const khai báo trong cặp ngoặc nhọn chỉ tồn tại trong khối đó."
+  },
+  {
+    "question_id": "Q-T01-005",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “kiểu nguyên thủy” trong JavaScript?",
+    "options": [
+      "Các kiểu nguyên thủy gồm string, number, boolean, undefined, null, bigint và symbol.",
+      "undefined thường biểu diễn một biến hoặc thuộc tính chưa được gán giá trị.",
+      "typeof trả về tên kiểu dưới dạng chuỗi, nhưng typeof null có kết quả lịch sử là object.",
+      "let khai báo biến có phạm vi khối và cho phép gán lại giá trị."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Các kiểu nguyên thủy gồm string, number, boolean, undefined, null, bigint và symbol.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "Các kiểu nguyên thủy gồm string, number, boolean, undefined, null, bigint và symbol."
+  },
+  {
+    "question_id": "Q-T01-006",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “undefined” trong JavaScript?",
+    "options": [
+      "null là giá trị được gán chủ động để biểu diễn không có dữ liệu.",
+      "undefined thường biểu diễn một biến hoặc thuộc tính chưa được gán giá trị.",
+      "Toán tử === so sánh cả giá trị và kiểu mà không tự chuyển kiểu trước khi so sánh.",
+      "const khai báo biến có phạm vi khối và không cho phép gán lại chính biến đó."
+    ],
+    "correct_option": "B",
+    "correct_answer": "undefined thường biểu diễn một biến hoặc thuộc tính chưa được gán giá trị.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "undefined thường biểu diễn một biến hoặc thuộc tính chưa được gán giá trị."
+  },
+  {
+    "question_id": "Q-T01-007",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “null” trong JavaScript?",
+    "options": [
+      "typeof trả về tên kiểu dưới dạng chuỗi, nhưng typeof null có kết quả lịch sử là object.",
+      "Template literal dùng dấu backtick và chèn biểu thức bằng cú pháp ${...}.",
+      "null là giá trị được gán chủ động để biểu diễn không có dữ liệu.",
+      "var có phạm vi hàm, cho phép khai báo lại và thường được hạn chế trong mã JavaScript hiện đại."
+    ],
+    "correct_option": "C",
+    "correct_answer": "null là giá trị được gán chủ động để biểu diễn không có dữ liệu.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "null là giá trị được gán chủ động để biểu diễn không có dữ liệu."
+  },
+  {
+    "question_id": "Q-T01-008",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “typeof” trong JavaScript?",
+    "options": [
+      "Toán tử === so sánh cả giá trị và kiểu mà không tự chuyển kiểu trước khi so sánh.",
+      "let khai báo biến có phạm vi khối và cho phép gán lại giá trị.",
+      "Biến let hoặc const khai báo trong cặp ngoặc nhọn chỉ tồn tại trong khối đó.",
+      "typeof trả về tên kiểu dưới dạng chuỗi, nhưng typeof null có kết quả lịch sử là object."
+    ],
+    "correct_option": "D",
+    "correct_answer": "typeof trả về tên kiểu dưới dạng chuỗi, nhưng typeof null có kết quả lịch sử là object.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "typeof trả về tên kiểu dưới dạng chuỗi, nhưng typeof null có kết quả lịch sử là object."
+  },
+  {
+    "question_id": "Q-T01-009",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “so sánh nghiêm ngặt” trong JavaScript?",
+    "options": [
+      "Toán tử === so sánh cả giá trị và kiểu mà không tự chuyển kiểu trước khi so sánh.",
+      "Template literal dùng dấu backtick và chèn biểu thức bằng cú pháp ${...}.",
+      "const khai báo biến có phạm vi khối và không cho phép gán lại chính biến đó.",
+      "Các kiểu nguyên thủy gồm string, number, boolean, undefined, null, bigint và symbol."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Toán tử === so sánh cả giá trị và kiểu mà không tự chuyển kiểu trước khi so sánh.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "Toán tử === so sánh cả giá trị và kiểu mà không tự chuyển kiểu trước khi so sánh."
+  },
+  {
+    "question_id": "Q-T01-010",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “template literal” trong JavaScript?",
+    "options": [
+      "let khai báo biến có phạm vi khối và cho phép gán lại giá trị.",
+      "Template literal dùng dấu backtick và chèn biểu thức bằng cú pháp ${...}.",
+      "var có phạm vi hàm, cho phép khai báo lại và thường được hạn chế trong mã JavaScript hiện đại.",
+      "undefined thường biểu diễn một biến hoặc thuộc tính chưa được gán giá trị."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Template literal dùng dấu backtick và chèn biểu thức bằng cú pháp ${...}.",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "Template literal dùng dấu backtick và chèn biểu thức bằng cú pháp ${...}."
+  },
+  {
+    "question_id": "Q-T01-011",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "medium",
+    "question_text": "Khi một biến đếm cần thay đổi sau mỗi lần lặp, cách khai báo nào phù hợp nhất?",
+    "options": [
+      "const count = 0",
+      "let count = 0",
+      "Không cần khai báo",
+      "Dùng một chuỗi"
+    ],
+    "correct_option": "B",
+    "correct_answer": "let count = 0",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "Biến đếm cần gán lại nên dùng let; const không cho phép gán lại biến."
+  },
+  {
+    "question_id": "Q-T01-012",
+    "topic": "bien-va-kieu-du-lieu",
+    "difficulty": "hard",
+    "question_text": "Biểu thức nào tránh chuyển kiểu ngầm khi kiểm tra số 5?",
+    "options": [
+      "value == '5'",
+      "value = 5",
+      "value === 5",
+      "value != 5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "value === 5",
+    "source": "documents/01-bien-va-kieu-du-lieu.md",
+    "explanation": "=== kiểm tra đồng thời giá trị và kiểu nên không chuyển chuỗi '5' thành số."
+  },
+  {
+    "question_id": "Q-T02-001",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “if” trong JavaScript?",
+    "options": [
+      "else if kiểm tra điều kiện bổ sung khi các nhánh trước chưa được chọn.",
+      "if chạy khối lệnh khi biểu thức điều kiện được chuyển thành true.",
+      "Các giá trị falsy gồm false, 0, -0, 0n, chuỗi rỗng, null, undefined và NaN.",
+      "Toán tử ?? chỉ lấy vế phải khi vế trái là null hoặc undefined."
+    ],
+    "correct_option": "B",
+    "correct_answer": "if chạy khối lệnh khi biểu thức điều kiện được chuyển thành true.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "if chạy khối lệnh khi biểu thức điều kiện được chuyển thành true."
+  },
+  {
+    "question_id": "Q-T02-002",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “else if” trong JavaScript?",
+    "options": [
+      "Giá trị truthy là giá trị được chuyển thành true khi đặt trong ngữ cảnh boolean.",
+      "Toán tử && trả toán hạng falsy đầu tiên hoặc toán hạng cuối nếu tất cả đều truthy.",
+      "else if kiểm tra điều kiện bổ sung khi các nhánh trước chưa được chọn.",
+      "switch phù hợp khi so sánh một biểu thức với nhiều giá trị xác định và thường cần break ở mỗi case."
+    ],
+    "correct_option": "C",
+    "correct_answer": "else if kiểm tra điều kiện bổ sung khi các nhánh trước chưa được chọn.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "else if kiểm tra điều kiện bổ sung khi các nhánh trước chưa được chọn."
+  },
+  {
+    "question_id": "Q-T02-003",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “truthy” trong JavaScript?",
+    "options": [
+      "Các giá trị falsy gồm false, 0, -0, 0n, chuỗi rỗng, null, undefined và NaN.",
+      "Toán tử || trả toán hạng truthy đầu tiên và có thể thay cả 0 hoặc chuỗi rỗng bằng giá trị mặc định.",
+      "Toán tử điều kiện có dạng condition ? valueIfTrue : valueIfFalse và phù hợp cho lựa chọn ngắn.",
+      "Giá trị truthy là giá trị được chuyển thành true khi đặt trong ngữ cảnh boolean."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Giá trị truthy là giá trị được chuyển thành true khi đặt trong ngữ cảnh boolean.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "Giá trị truthy là giá trị được chuyển thành true khi đặt trong ngữ cảnh boolean."
+  },
+  {
+    "question_id": "Q-T02-004",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “falsy” trong JavaScript?",
+    "options": [
+      "Các giá trị falsy gồm false, 0, -0, 0n, chuỗi rỗng, null, undefined và NaN.",
+      "Toán tử && trả toán hạng falsy đầu tiên hoặc toán hạng cuối nếu tất cả đều truthy.",
+      "Toán tử ?? chỉ lấy vế phải khi vế trái là null hoặc undefined.",
+      "Guard clause xử lý trường hợp không hợp lệ và return sớm để giảm các tầng if lồng nhau."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Các giá trị falsy gồm false, 0, -0, 0n, chuỗi rỗng, null, undefined và NaN.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "Các giá trị falsy gồm false, 0, -0, 0n, chuỗi rỗng, null, undefined và NaN."
+  },
+  {
+    "question_id": "Q-T02-005",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “toán tử &&” trong JavaScript?",
+    "options": [
+      "Toán tử || trả toán hạng truthy đầu tiên và có thể thay cả 0 hoặc chuỗi rỗng bằng giá trị mặc định.",
+      "Toán tử && trả toán hạng falsy đầu tiên hoặc toán hạng cuối nếu tất cả đều truthy.",
+      "switch phù hợp khi so sánh một biểu thức với nhiều giá trị xác định và thường cần break ở mỗi case.",
+      "if chạy khối lệnh khi biểu thức điều kiện được chuyển thành true."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Toán tử && trả toán hạng falsy đầu tiên hoặc toán hạng cuối nếu tất cả đều truthy.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "Toán tử && trả toán hạng falsy đầu tiên hoặc toán hạng cuối nếu tất cả đều truthy."
+  },
+  {
+    "question_id": "Q-T02-006",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “toán tử ||” trong JavaScript?",
+    "options": [
+      "Toán tử ?? chỉ lấy vế phải khi vế trái là null hoặc undefined.",
+      "Toán tử điều kiện có dạng condition ? valueIfTrue : valueIfFalse và phù hợp cho lựa chọn ngắn.",
+      "Toán tử || trả toán hạng truthy đầu tiên và có thể thay cả 0 hoặc chuỗi rỗng bằng giá trị mặc định.",
+      "else if kiểm tra điều kiện bổ sung khi các nhánh trước chưa được chọn."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Toán tử || trả toán hạng truthy đầu tiên và có thể thay cả 0 hoặc chuỗi rỗng bằng giá trị mặc định.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "Toán tử || trả toán hạng truthy đầu tiên và có thể thay cả 0 hoặc chuỗi rỗng bằng giá trị mặc định."
+  },
+  {
+    "question_id": "Q-T02-007",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “toán tử ??” trong JavaScript?",
+    "options": [
+      "switch phù hợp khi so sánh một biểu thức với nhiều giá trị xác định và thường cần break ở mỗi case.",
+      "Guard clause xử lý trường hợp không hợp lệ và return sớm để giảm các tầng if lồng nhau.",
+      "Giá trị truthy là giá trị được chuyển thành true khi đặt trong ngữ cảnh boolean.",
+      "Toán tử ?? chỉ lấy vế phải khi vế trái là null hoặc undefined."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Toán tử ?? chỉ lấy vế phải khi vế trái là null hoặc undefined.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "Toán tử ?? chỉ lấy vế phải khi vế trái là null hoặc undefined."
+  },
+  {
+    "question_id": "Q-T02-008",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “switch” trong JavaScript?",
+    "options": [
+      "switch phù hợp khi so sánh một biểu thức với nhiều giá trị xác định và thường cần break ở mỗi case.",
+      "Toán tử điều kiện có dạng condition ? valueIfTrue : valueIfFalse và phù hợp cho lựa chọn ngắn.",
+      "if chạy khối lệnh khi biểu thức điều kiện được chuyển thành true.",
+      "Các giá trị falsy gồm false, 0, -0, 0n, chuỗi rỗng, null, undefined và NaN."
+    ],
+    "correct_option": "A",
+    "correct_answer": "switch phù hợp khi so sánh một biểu thức với nhiều giá trị xác định và thường cần break ở mỗi case.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "switch phù hợp khi so sánh một biểu thức với nhiều giá trị xác định và thường cần break ở mỗi case."
+  },
+  {
+    "question_id": "Q-T02-009",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “toán tử ba ngôi” trong JavaScript?",
+    "options": [
+      "Guard clause xử lý trường hợp không hợp lệ và return sớm để giảm các tầng if lồng nhau.",
+      "Toán tử điều kiện có dạng condition ? valueIfTrue : valueIfFalse và phù hợp cho lựa chọn ngắn.",
+      "else if kiểm tra điều kiện bổ sung khi các nhánh trước chưa được chọn.",
+      "Toán tử && trả toán hạng falsy đầu tiên hoặc toán hạng cuối nếu tất cả đều truthy."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Toán tử điều kiện có dạng condition ? valueIfTrue : valueIfFalse và phù hợp cho lựa chọn ngắn.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "Toán tử điều kiện có dạng condition ? valueIfTrue : valueIfFalse và phù hợp cho lựa chọn ngắn."
+  },
+  {
+    "question_id": "Q-T02-010",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “guard clause” trong JavaScript?",
+    "options": [
+      "if chạy khối lệnh khi biểu thức điều kiện được chuyển thành true.",
+      "Giá trị truthy là giá trị được chuyển thành true khi đặt trong ngữ cảnh boolean.",
+      "Guard clause xử lý trường hợp không hợp lệ và return sớm để giảm các tầng if lồng nhau.",
+      "Toán tử || trả toán hạng truthy đầu tiên và có thể thay cả 0 hoặc chuỗi rỗng bằng giá trị mặc định."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Guard clause xử lý trường hợp không hợp lệ và return sớm để giảm các tầng if lồng nhau.",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "Guard clause xử lý trường hợp không hợp lệ và return sớm để giảm các tầng if lồng nhau."
+  },
+  {
+    "question_id": "Q-T02-011",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "medium",
+    "question_text": "Muốn giữ nguyên pageSize = 0 nhưng dùng 20 khi pageSize chưa có, biểu thức nào phù hợp?",
+    "options": [
+      "pageSize || 20",
+      "pageSize && 20",
+      "pageSize ?? 20",
+      "!pageSize"
+    ],
+    "correct_option": "C",
+    "correct_answer": "pageSize ?? 20",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "?? chỉ dùng giá trị mặc định với null hoặc undefined nên vẫn giữ số 0."
+  },
+  {
+    "question_id": "Q-T02-012",
+    "topic": "cau-lenh-dieu-kien",
+    "difficulty": "hard",
+    "question_text": "Trong switch, quên break sau một case thường gây điều gì?",
+    "options": [
+      "Lỗi cú pháp",
+      "Chạy tiếp các case sau",
+      "Dừng toàn bộ chương trình",
+      "Tự quay lại case đầu"
+    ],
+    "correct_option": "B",
+    "correct_answer": "Chạy tiếp các case sau",
+    "source": "documents/02-cau-lenh-dieu-kien.md",
+    "explanation": "Không có break, luồng xử lý tiếp tục sang case kế tiếp cho đến khi gặp break hoặc hết switch."
+  },
+  {
+    "question_id": "Q-T03-001",
+    "topic": "vong-lap",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “for” trong JavaScript?",
+    "options": [
+      "while kiểm tra điều kiện trước mỗi lần lặp nên có thể không chạy lần nào.",
+      "for...of duyệt các giá trị của iterable như mảng, chuỗi, Map và Set.",
+      "Vòng lặp for phù hợp khi cần phần khởi tạo, điều kiện dừng và bước cập nhật rõ ràng.",
+      "continue bỏ qua phần còn lại của lần lặp hiện tại và chuyển sang lần tiếp theo."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Vòng lặp for phù hợp khi cần phần khởi tạo, điều kiện dừng và bước cập nhật rõ ràng.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "Vòng lặp for phù hợp khi cần phần khởi tạo, điều kiện dừng và bước cập nhật rõ ràng."
+  },
+  {
+    "question_id": "Q-T03-002",
+    "topic": "vong-lap",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “while” trong JavaScript?",
+    "options": [
+      "do...while chạy phần thân ít nhất một lần rồi mới kiểm tra điều kiện.",
+      "for...in duyệt tên thuộc tính có thể liệt kê của đối tượng.",
+      "forEach gọi callback cho từng phần tử, không tạo mảng mới và không hỗ trợ break để dừng sớm.",
+      "while kiểm tra điều kiện trước mỗi lần lặp nên có thể không chạy lần nào."
+    ],
+    "correct_option": "D",
+    "correct_answer": "while kiểm tra điều kiện trước mỗi lần lặp nên có thể không chạy lần nào.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "while kiểm tra điều kiện trước mỗi lần lặp nên có thể không chạy lần nào."
+  },
+  {
+    "question_id": "Q-T03-003",
+    "topic": "vong-lap",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “do...while” trong JavaScript?",
+    "options": [
+      "do...while chạy phần thân ít nhất một lần rồi mới kiểm tra điều kiện.",
+      "for...of duyệt các giá trị của iterable như mảng, chuỗi, Map và Set.",
+      "break kết thúc ngay vòng lặp gần nhất.",
+      "Hai vòng lặp mỗi vòng chạy n lần có thể tạo gần n bình phương lượt xử lý."
+    ],
+    "correct_option": "A",
+    "correct_answer": "do...while chạy phần thân ít nhất một lần rồi mới kiểm tra điều kiện.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "do...while chạy phần thân ít nhất một lần rồi mới kiểm tra điều kiện."
+  },
+  {
+    "question_id": "Q-T03-004",
+    "topic": "vong-lap",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “for...of” trong JavaScript?",
+    "options": [
+      "for...in duyệt tên thuộc tính có thể liệt kê của đối tượng.",
+      "for...of duyệt các giá trị của iterable như mảng, chuỗi, Map và Set.",
+      "continue bỏ qua phần còn lại của lần lặp hiện tại và chuyển sang lần tiếp theo.",
+      "Vòng lặp vô hạn xảy ra khi điều kiện dừng không bao giờ trở thành sai."
+    ],
+    "correct_option": "B",
+    "correct_answer": "for...of duyệt các giá trị của iterable như mảng, chuỗi, Map và Set.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "for...of duyệt các giá trị của iterable như mảng, chuỗi, Map và Set."
+  },
+  {
+    "question_id": "Q-T03-005",
+    "topic": "vong-lap",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “for...in” trong JavaScript?",
+    "options": [
+      "break kết thúc ngay vòng lặp gần nhất.",
+      "forEach gọi callback cho từng phần tử, không tạo mảng mới và không hỗ trợ break để dừng sớm.",
+      "for...in duyệt tên thuộc tính có thể liệt kê của đối tượng.",
+      "Vòng lặp for phù hợp khi cần phần khởi tạo, điều kiện dừng và bước cập nhật rõ ràng."
+    ],
+    "correct_option": "C",
+    "correct_answer": "for...in duyệt tên thuộc tính có thể liệt kê của đối tượng.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "for...in duyệt tên thuộc tính có thể liệt kê của đối tượng."
+  },
+  {
+    "question_id": "Q-T03-006",
+    "topic": "vong-lap",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “break” trong JavaScript?",
+    "options": [
+      "continue bỏ qua phần còn lại của lần lặp hiện tại và chuyển sang lần tiếp theo.",
+      "Hai vòng lặp mỗi vòng chạy n lần có thể tạo gần n bình phương lượt xử lý.",
+      "while kiểm tra điều kiện trước mỗi lần lặp nên có thể không chạy lần nào.",
+      "break kết thúc ngay vòng lặp gần nhất."
+    ],
+    "correct_option": "D",
+    "correct_answer": "break kết thúc ngay vòng lặp gần nhất.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "break kết thúc ngay vòng lặp gần nhất."
+  },
+  {
+    "question_id": "Q-T03-007",
+    "topic": "vong-lap",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “continue” trong JavaScript?",
+    "options": [
+      "continue bỏ qua phần còn lại của lần lặp hiện tại và chuyển sang lần tiếp theo.",
+      "forEach gọi callback cho từng phần tử, không tạo mảng mới và không hỗ trợ break để dừng sớm.",
+      "Vòng lặp vô hạn xảy ra khi điều kiện dừng không bao giờ trở thành sai.",
+      "do...while chạy phần thân ít nhất một lần rồi mới kiểm tra điều kiện."
+    ],
+    "correct_option": "A",
+    "correct_answer": "continue bỏ qua phần còn lại của lần lặp hiện tại và chuyển sang lần tiếp theo.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "continue bỏ qua phần còn lại của lần lặp hiện tại và chuyển sang lần tiếp theo."
+  },
+  {
+    "question_id": "Q-T03-008",
+    "topic": "vong-lap",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “forEach” trong JavaScript?",
+    "options": [
+      "Hai vòng lặp mỗi vòng chạy n lần có thể tạo gần n bình phương lượt xử lý.",
+      "forEach gọi callback cho từng phần tử, không tạo mảng mới và không hỗ trợ break để dừng sớm.",
+      "Vòng lặp for phù hợp khi cần phần khởi tạo, điều kiện dừng và bước cập nhật rõ ràng.",
+      "for...of duyệt các giá trị của iterable như mảng, chuỗi, Map và Set."
+    ],
+    "correct_option": "B",
+    "correct_answer": "forEach gọi callback cho từng phần tử, không tạo mảng mới và không hỗ trợ break để dừng sớm.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "forEach gọi callback cho từng phần tử, không tạo mảng mới và không hỗ trợ break để dừng sớm."
+  },
+  {
+    "question_id": "Q-T03-009",
+    "topic": "vong-lap",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “vòng lặp lồng nhau” trong JavaScript?",
+    "options": [
+      "Vòng lặp vô hạn xảy ra khi điều kiện dừng không bao giờ trở thành sai.",
+      "while kiểm tra điều kiện trước mỗi lần lặp nên có thể không chạy lần nào.",
+      "Hai vòng lặp mỗi vòng chạy n lần có thể tạo gần n bình phương lượt xử lý.",
+      "for...in duyệt tên thuộc tính có thể liệt kê của đối tượng."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Hai vòng lặp mỗi vòng chạy n lần có thể tạo gần n bình phương lượt xử lý.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "Hai vòng lặp mỗi vòng chạy n lần có thể tạo gần n bình phương lượt xử lý."
+  },
+  {
+    "question_id": "Q-T03-010",
+    "topic": "vong-lap",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “vòng lặp vô hạn” trong JavaScript?",
+    "options": [
+      "Vòng lặp for phù hợp khi cần phần khởi tạo, điều kiện dừng và bước cập nhật rõ ràng.",
+      "do...while chạy phần thân ít nhất một lần rồi mới kiểm tra điều kiện.",
+      "break kết thúc ngay vòng lặp gần nhất.",
+      "Vòng lặp vô hạn xảy ra khi điều kiện dừng không bao giờ trở thành sai."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Vòng lặp vô hạn xảy ra khi điều kiện dừng không bao giờ trở thành sai.",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "Vòng lặp vô hạn xảy ra khi điều kiện dừng không bao giờ trở thành sai."
+  },
+  {
+    "question_id": "Q-T03-011",
+    "topic": "vong-lap",
+    "difficulty": "medium",
+    "question_text": "Cách nào phù hợp nhất để duyệt trực tiếp từng giá trị trong mảng lessons?",
+    "options": [
+      "for...in",
+      "for...of",
+      "switch",
+      "do...while bắt buộc"
+    ],
+    "correct_option": "B",
+    "correct_answer": "for...of",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "for...of được thiết kế để duyệt giá trị của mảng và các iterable."
+  },
+  {
+    "question_id": "Q-T03-012",
+    "topic": "vong-lap",
+    "difficulty": "hard",
+    "question_text": "Vì sao forEach(async item => ...) không phù hợp khi phải chờ từng tác vụ theo thứ tự?",
+    "options": [
+      "forEach xóa mảng",
+      "forEach không chờ các Promise từ callback",
+      "async không dùng với mảng",
+      "forEach chỉ chạy một phần tử"
+    ],
+    "correct_option": "B",
+    "correct_answer": "forEach không chờ các Promise từ callback",
+    "source": "documents/03-vong-lap.md",
+    "explanation": "forEach không chờ Promise mà callback trả về; dùng for...of cùng await cho xử lý tuần tự."
+  },
+  {
+    "question_id": "Q-T04-001",
+    "topic": "ham",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “function declaration” trong JavaScript?",
+    "options": [
+      "Function expression gán một hàm vào biến và chỉ dùng được sau khi biến được khởi tạo.",
+      "Tham số mặc định được sử dụng khi đối số truyền vào là undefined.",
+      "Closure cho phép hàm ghi nhớ và truy cập môi trường từ vựng nơi nó được tạo.",
+      "Function declaration được hoisting nên có thể được gọi trước dòng khai báo trong cùng phạm vi."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Function declaration được hoisting nên có thể được gọi trước dòng khai báo trong cùng phạm vi.",
+    "source": "documents/04-ham.md",
+    "explanation": "Function declaration được hoisting nên có thể được gọi trước dòng khai báo trong cùng phạm vi."
+  },
+  {
+    "question_id": "Q-T04-002",
+    "topic": "ham",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “function expression” trong JavaScript?",
+    "options": [
+      "Function expression gán một hàm vào biến và chỉ dùng được sau khi biến được khởi tạo.",
+      "Arrow function có cú pháp ngắn và không tạo this riêng.",
+      "Rest parameter dùng ... để gom các đối số còn lại thành một mảng.",
+      "Callback là hàm được truyền cho hàm khác để được gọi trong quá trình xử lý hoặc khi có kết quả."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Function expression gán một hàm vào biến và chỉ dùng được sau khi biến được khởi tạo.",
+    "source": "documents/04-ham.md",
+    "explanation": "Function expression gán một hàm vào biến và chỉ dùng được sau khi biến được khởi tạo."
+  },
+  {
+    "question_id": "Q-T04-003",
+    "topic": "ham",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “arrow function” trong JavaScript?",
+    "options": [
+      "Tham số mặc định được sử dụng khi đối số truyền vào là undefined.",
+      "Arrow function có cú pháp ngắn và không tạo this riêng.",
+      "return kết thúc hàm và đưa giá trị về nơi gọi; không trả rõ ràng thì kết quả là undefined.",
+      "Hàm bậc cao nhận hàm làm đối số hoặc trả về một hàm."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Arrow function có cú pháp ngắn và không tạo this riêng.",
+    "source": "documents/04-ham.md",
+    "explanation": "Arrow function có cú pháp ngắn và không tạo this riêng."
+  },
+  {
+    "question_id": "Q-T04-004",
+    "topic": "ham",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “tham số mặc định” trong JavaScript?",
+    "options": [
+      "Rest parameter dùng ... để gom các đối số còn lại thành một mảng.",
+      "Closure cho phép hàm ghi nhớ và truy cập môi trường từ vựng nơi nó được tạo.",
+      "Tham số mặc định được sử dụng khi đối số truyền vào là undefined.",
+      "Hàm thuần cho cùng kết quả với cùng đầu vào và không tạo tác dụng phụ bên ngoài."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Tham số mặc định được sử dụng khi đối số truyền vào là undefined.",
+    "source": "documents/04-ham.md",
+    "explanation": "Tham số mặc định được sử dụng khi đối số truyền vào là undefined."
+  },
+  {
+    "question_id": "Q-T04-005",
+    "topic": "ham",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “rest parameter” trong JavaScript?",
+    "options": [
+      "return kết thúc hàm và đưa giá trị về nơi gọi; không trả rõ ràng thì kết quả là undefined.",
+      "Callback là hàm được truyền cho hàm khác để được gọi trong quá trình xử lý hoặc khi có kết quả.",
+      "Function declaration được hoisting nên có thể được gọi trước dòng khai báo trong cùng phạm vi.",
+      "Rest parameter dùng ... để gom các đối số còn lại thành một mảng."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Rest parameter dùng ... để gom các đối số còn lại thành một mảng.",
+    "source": "documents/04-ham.md",
+    "explanation": "Rest parameter dùng ... để gom các đối số còn lại thành một mảng."
+  },
+  {
+    "question_id": "Q-T04-006",
+    "topic": "ham",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “return” trong JavaScript?",
+    "options": [
+      "return kết thúc hàm và đưa giá trị về nơi gọi; không trả rõ ràng thì kết quả là undefined.",
+      "Closure cho phép hàm ghi nhớ và truy cập môi trường từ vựng nơi nó được tạo.",
+      "Hàm bậc cao nhận hàm làm đối số hoặc trả về một hàm.",
+      "Function expression gán một hàm vào biến và chỉ dùng được sau khi biến được khởi tạo."
+    ],
+    "correct_option": "A",
+    "correct_answer": "return kết thúc hàm và đưa giá trị về nơi gọi; không trả rõ ràng thì kết quả là undefined.",
+    "source": "documents/04-ham.md",
+    "explanation": "return kết thúc hàm và đưa giá trị về nơi gọi; không trả rõ ràng thì kết quả là undefined."
+  },
+  {
+    "question_id": "Q-T04-007",
+    "topic": "ham",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “closure” trong JavaScript?",
+    "options": [
+      "Callback là hàm được truyền cho hàm khác để được gọi trong quá trình xử lý hoặc khi có kết quả.",
+      "Closure cho phép hàm ghi nhớ và truy cập môi trường từ vựng nơi nó được tạo.",
+      "Hàm thuần cho cùng kết quả với cùng đầu vào và không tạo tác dụng phụ bên ngoài.",
+      "Arrow function có cú pháp ngắn và không tạo this riêng."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Closure cho phép hàm ghi nhớ và truy cập môi trường từ vựng nơi nó được tạo.",
+    "source": "documents/04-ham.md",
+    "explanation": "Closure cho phép hàm ghi nhớ và truy cập môi trường từ vựng nơi nó được tạo."
+  },
+  {
+    "question_id": "Q-T04-008",
+    "topic": "ham",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “callback” trong JavaScript?",
+    "options": [
+      "Hàm bậc cao nhận hàm làm đối số hoặc trả về một hàm.",
+      "Function declaration được hoisting nên có thể được gọi trước dòng khai báo trong cùng phạm vi.",
+      "Callback là hàm được truyền cho hàm khác để được gọi trong quá trình xử lý hoặc khi có kết quả.",
+      "Tham số mặc định được sử dụng khi đối số truyền vào là undefined."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Callback là hàm được truyền cho hàm khác để được gọi trong quá trình xử lý hoặc khi có kết quả.",
+    "source": "documents/04-ham.md",
+    "explanation": "Callback là hàm được truyền cho hàm khác để được gọi trong quá trình xử lý hoặc khi có kết quả."
+  },
+  {
+    "question_id": "Q-T04-009",
+    "topic": "ham",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “hàm bậc cao” trong JavaScript?",
+    "options": [
+      "Hàm thuần cho cùng kết quả với cùng đầu vào và không tạo tác dụng phụ bên ngoài.",
+      "Function expression gán một hàm vào biến và chỉ dùng được sau khi biến được khởi tạo.",
+      "Rest parameter dùng ... để gom các đối số còn lại thành một mảng.",
+      "Hàm bậc cao nhận hàm làm đối số hoặc trả về một hàm."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Hàm bậc cao nhận hàm làm đối số hoặc trả về một hàm.",
+    "source": "documents/04-ham.md",
+    "explanation": "Hàm bậc cao nhận hàm làm đối số hoặc trả về một hàm."
+  },
+  {
+    "question_id": "Q-T04-010",
+    "topic": "ham",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “hàm thuần” trong JavaScript?",
+    "options": [
+      "Hàm thuần cho cùng kết quả với cùng đầu vào và không tạo tác dụng phụ bên ngoài.",
+      "Function declaration được hoisting nên có thể được gọi trước dòng khai báo trong cùng phạm vi.",
+      "Arrow function có cú pháp ngắn và không tạo this riêng.",
+      "return kết thúc hàm và đưa giá trị về nơi gọi; không trả rõ ràng thì kết quả là undefined."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Hàm thuần cho cùng kết quả với cùng đầu vào và không tạo tác dụng phụ bên ngoài.",
+    "source": "documents/04-ham.md",
+    "explanation": "Hàm thuần cho cùng kết quả với cùng đầu vào và không tạo tác dụng phụ bên ngoài."
+  },
+  {
+    "question_id": "Q-T04-011",
+    "topic": "ham",
+    "difficulty": "medium",
+    "question_text": "Hàm createCounter trả về hàm con vẫn nhớ biến count là ví dụ của khái niệm nào?",
+    "options": [
+      "Hoisting",
+      "Closure",
+      "JSON",
+      "Vòng lặp"
+    ],
+    "correct_option": "B",
+    "correct_answer": "Closure",
+    "source": "documents/04-ham.md",
+    "explanation": "Hàm con giữ quyền truy cập biến trong môi trường của hàm ngoài nhờ closure."
+  },
+  {
+    "question_id": "Q-T04-012",
+    "topic": "ham",
+    "difficulty": "hard",
+    "question_text": "Khi method của object cần dùng this động, lựa chọn nào nên tránh?",
+    "options": [
+      "Method shorthand",
+      "Function thông thường",
+      "Arrow function làm method",
+      "Gọi qua dấu chấm"
+    ],
+    "correct_option": "C",
+    "correct_answer": "Arrow function làm method",
+    "source": "documents/04-ham.md",
+    "explanation": "Arrow function không tạo this riêng nên không nhận this theo cách gọi method thông thường."
+  },
+  {
+    "question_id": "Q-T05-001",
+    "topic": "mang",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “length” trong JavaScript?",
+    "options": [
+      "Thuộc tính length cho biết số phần tử của mảng.",
+      "push thêm phần tử vào cuối mảng, còn pop xóa và trả về phần tử cuối.",
+      "slice trả về một mảng mới trong khoảng đã chọn và không thay đổi mảng gốc.",
+      "filter tạo mảng mới chỉ gồm các phần tử làm callback trả về true."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Thuộc tính length cho biết số phần tử của mảng.",
+    "source": "documents/05-mang.md",
+    "explanation": "Thuộc tính length cho biết số phần tử của mảng."
+  },
+  {
+    "question_id": "Q-T05-002",
+    "topic": "mang",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “push và pop” trong JavaScript?",
+    "options": [
+      "shift xóa phần tử đầu, còn unshift thêm phần tử vào đầu mảng.",
+      "push thêm phần tử vào cuối mảng, còn pop xóa và trả về phần tử cuối.",
+      "splice thay đổi mảng gốc bằng cách xóa hoặc chèn phần tử tại vị trí xác định.",
+      "reduce gộp các phần tử thành một giá trị thông qua accumulator."
+    ],
+    "correct_option": "B",
+    "correct_answer": "push thêm phần tử vào cuối mảng, còn pop xóa và trả về phần tử cuối.",
+    "source": "documents/05-mang.md",
+    "explanation": "push thêm phần tử vào cuối mảng, còn pop xóa và trả về phần tử cuối."
+  },
+  {
+    "question_id": "Q-T05-003",
+    "topic": "mang",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “shift và unshift” trong JavaScript?",
+    "options": [
+      "slice trả về một mảng mới trong khoảng đã chọn và không thay đổi mảng gốc.",
+      "map tạo mảng mới bằng cách biến đổi từng phần tử của mảng ban đầu.",
+      "shift xóa phần tử đầu, còn unshift thêm phần tử vào đầu mảng.",
+      "find trả về phần tử đầu tiên thỏa điều kiện hoặc undefined nếu không tìm thấy."
+    ],
+    "correct_option": "C",
+    "correct_answer": "shift xóa phần tử đầu, còn unshift thêm phần tử vào đầu mảng.",
+    "source": "documents/05-mang.md",
+    "explanation": "shift xóa phần tử đầu, còn unshift thêm phần tử vào đầu mảng."
+  },
+  {
+    "question_id": "Q-T05-004",
+    "topic": "mang",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “slice” trong JavaScript?",
+    "options": [
+      "splice thay đổi mảng gốc bằng cách xóa hoặc chèn phần tử tại vị trí xác định.",
+      "filter tạo mảng mới chỉ gồm các phần tử làm callback trả về true.",
+      "sort thay đổi mảng gốc và mặc định so sánh các phần tử theo chuỗi.",
+      "slice trả về một mảng mới trong khoảng đã chọn và không thay đổi mảng gốc."
+    ],
+    "correct_option": "D",
+    "correct_answer": "slice trả về một mảng mới trong khoảng đã chọn và không thay đổi mảng gốc.",
+    "source": "documents/05-mang.md",
+    "explanation": "slice trả về một mảng mới trong khoảng đã chọn và không thay đổi mảng gốc."
+  },
+  {
+    "question_id": "Q-T05-005",
+    "topic": "mang",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “splice” trong JavaScript?",
+    "options": [
+      "splice thay đổi mảng gốc bằng cách xóa hoặc chèn phần tử tại vị trí xác định.",
+      "map tạo mảng mới bằng cách biến đổi từng phần tử của mảng ban đầu.",
+      "reduce gộp các phần tử thành một giá trị thông qua accumulator.",
+      "Thuộc tính length cho biết số phần tử của mảng."
+    ],
+    "correct_option": "A",
+    "correct_answer": "splice thay đổi mảng gốc bằng cách xóa hoặc chèn phần tử tại vị trí xác định.",
+    "source": "documents/05-mang.md",
+    "explanation": "splice thay đổi mảng gốc bằng cách xóa hoặc chèn phần tử tại vị trí xác định."
+  },
+  {
+    "question_id": "Q-T05-006",
+    "topic": "mang",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “map” trong JavaScript?",
+    "options": [
+      "filter tạo mảng mới chỉ gồm các phần tử làm callback trả về true.",
+      "map tạo mảng mới bằng cách biến đổi từng phần tử của mảng ban đầu.",
+      "find trả về phần tử đầu tiên thỏa điều kiện hoặc undefined nếu không tìm thấy.",
+      "push thêm phần tử vào cuối mảng, còn pop xóa và trả về phần tử cuối."
+    ],
+    "correct_option": "B",
+    "correct_answer": "map tạo mảng mới bằng cách biến đổi từng phần tử của mảng ban đầu.",
+    "source": "documents/05-mang.md",
+    "explanation": "map tạo mảng mới bằng cách biến đổi từng phần tử của mảng ban đầu."
+  },
+  {
+    "question_id": "Q-T05-007",
+    "topic": "mang",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “filter” trong JavaScript?",
+    "options": [
+      "reduce gộp các phần tử thành một giá trị thông qua accumulator.",
+      "sort thay đổi mảng gốc và mặc định so sánh các phần tử theo chuỗi.",
+      "filter tạo mảng mới chỉ gồm các phần tử làm callback trả về true.",
+      "shift xóa phần tử đầu, còn unshift thêm phần tử vào đầu mảng."
+    ],
+    "correct_option": "C",
+    "correct_answer": "filter tạo mảng mới chỉ gồm các phần tử làm callback trả về true.",
+    "source": "documents/05-mang.md",
+    "explanation": "filter tạo mảng mới chỉ gồm các phần tử làm callback trả về true."
+  },
+  {
+    "question_id": "Q-T05-008",
+    "topic": "mang",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “reduce” trong JavaScript?",
+    "options": [
+      "find trả về phần tử đầu tiên thỏa điều kiện hoặc undefined nếu không tìm thấy.",
+      "Thuộc tính length cho biết số phần tử của mảng.",
+      "slice trả về một mảng mới trong khoảng đã chọn và không thay đổi mảng gốc.",
+      "reduce gộp các phần tử thành một giá trị thông qua accumulator."
+    ],
+    "correct_option": "D",
+    "correct_answer": "reduce gộp các phần tử thành một giá trị thông qua accumulator.",
+    "source": "documents/05-mang.md",
+    "explanation": "reduce gộp các phần tử thành một giá trị thông qua accumulator."
+  },
+  {
+    "question_id": "Q-T05-009",
+    "topic": "mang",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “find” trong JavaScript?",
+    "options": [
+      "find trả về phần tử đầu tiên thỏa điều kiện hoặc undefined nếu không tìm thấy.",
+      "sort thay đổi mảng gốc và mặc định so sánh các phần tử theo chuỗi.",
+      "push thêm phần tử vào cuối mảng, còn pop xóa và trả về phần tử cuối.",
+      "splice thay đổi mảng gốc bằng cách xóa hoặc chèn phần tử tại vị trí xác định."
+    ],
+    "correct_option": "A",
+    "correct_answer": "find trả về phần tử đầu tiên thỏa điều kiện hoặc undefined nếu không tìm thấy.",
+    "source": "documents/05-mang.md",
+    "explanation": "find trả về phần tử đầu tiên thỏa điều kiện hoặc undefined nếu không tìm thấy."
+  },
+  {
+    "question_id": "Q-T05-010",
+    "topic": "mang",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “sort” trong JavaScript?",
+    "options": [
+      "Thuộc tính length cho biết số phần tử của mảng.",
+      "sort thay đổi mảng gốc và mặc định so sánh các phần tử theo chuỗi.",
+      "shift xóa phần tử đầu, còn unshift thêm phần tử vào đầu mảng.",
+      "map tạo mảng mới bằng cách biến đổi từng phần tử của mảng ban đầu."
+    ],
+    "correct_option": "B",
+    "correct_answer": "sort thay đổi mảng gốc và mặc định so sánh các phần tử theo chuỗi.",
+    "source": "documents/05-mang.md",
+    "explanation": "sort thay đổi mảng gốc và mặc định so sánh các phần tử theo chuỗi."
+  },
+  {
+    "question_id": "Q-T05-011",
+    "topic": "mang",
+    "difficulty": "medium",
+    "question_text": "Muốn lấy các điểm từ 5 trở lên mà không đổi mảng gốc, nên dùng phương thức nào?",
+    "options": [
+      "filter",
+      "splice",
+      "pop",
+      "sort"
+    ],
+    "correct_option": "A",
+    "correct_answer": "filter",
+    "source": "documents/05-mang.md",
+    "explanation": "filter tạo mảng mới gồm các phần tử thỏa điều kiện."
+  },
+  {
+    "question_id": "Q-T05-012",
+    "topic": "mang",
+    "difficulty": "hard",
+    "question_text": "Muốn sắp xếp [10, 2, 5] tăng dần theo số, lời gọi nào đúng?",
+    "options": [
+      "values.sort()",
+      "values.sort((a, b) => a - b)",
+      "values.filter(a => a)",
+      "values.map(a => a - 1)"
+    ],
+    "correct_option": "B",
+    "correct_answer": "values.sort((a, b) => a - b)",
+    "source": "documents/05-mang.md",
+    "explanation": "sort mặc định so sánh chuỗi; comparator a - b tạo thứ tự số tăng dần."
+  },
+  {
+    "question_id": "Q-T06-001",
+    "topic": "doi-tuong",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “object literal” trong JavaScript?",
+    "options": [
+      "Cú pháp dấu chấm phù hợp khi tên thuộc tính đã biết trước và là tên hợp lệ.",
+      "Object literal dùng cặp ngoặc nhọn để tạo đối tượng gồm các cặp khóa và giá trị.",
+      "Method là một hàm được lưu trong thuộc tính của đối tượng.",
+      "Cú pháp {...source} tạo bản sao nông nên đối tượng lồng nhau vẫn có thể dùng chung tham chiếu."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Object literal dùng cặp ngoặc nhọn để tạo đối tượng gồm các cặp khóa và giá trị.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Object literal dùng cặp ngoặc nhọn để tạo đối tượng gồm các cặp khóa và giá trị."
+  },
+  {
+    "question_id": "Q-T06-002",
+    "topic": "doi-tuong",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “dấu chấm” trong JavaScript?",
+    "options": [
+      "Cú pháp ngoặc vuông dùng khi tên thuộc tính nằm trong biến hoặc được tạo động.",
+      "Trong lời gọi object.method(), this của method thông thường thường là object đứng trước dấu chấm.",
+      "Cú pháp dấu chấm phù hợp khi tên thuộc tính đã biết trước và là tên hợp lệ.",
+      "Object destructuring lấy thuộc tính theo tên và có thể đổi tên hoặc đặt giá trị mặc định."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Cú pháp dấu chấm phù hợp khi tên thuộc tính đã biết trước và là tên hợp lệ.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Cú pháp dấu chấm phù hợp khi tên thuộc tính đã biết trước và là tên hợp lệ."
+  },
+  {
+    "question_id": "Q-T06-003",
+    "topic": "doi-tuong",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “ngoặc vuông” trong JavaScript?",
+    "options": [
+      "Method là một hàm được lưu trong thuộc tính của đối tượng.",
+      "Gán một đối tượng sang biến khác thường sao chép tham chiếu chứ không tạo đối tượng độc lập.",
+      "Object.entries trả về mảng các cặp [key, value] của thuộc tính trực tiếp có thể liệt kê.",
+      "Cú pháp ngoặc vuông dùng khi tên thuộc tính nằm trong biến hoặc được tạo động."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Cú pháp ngoặc vuông dùng khi tên thuộc tính nằm trong biến hoặc được tạo động.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Cú pháp ngoặc vuông dùng khi tên thuộc tính nằm trong biến hoặc được tạo động."
+  },
+  {
+    "question_id": "Q-T06-004",
+    "topic": "doi-tuong",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “method” trong JavaScript?",
+    "options": [
+      "Method là một hàm được lưu trong thuộc tính của đối tượng.",
+      "Trong lời gọi object.method(), this của method thông thường thường là object đứng trước dấu chấm.",
+      "Cú pháp {...source} tạo bản sao nông nên đối tượng lồng nhau vẫn có thể dùng chung tham chiếu.",
+      "JSON.stringify tạo chuỗi JSON và JSON.parse chuyển chuỗi JSON hợp lệ thành dữ liệu JavaScript."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Method là một hàm được lưu trong thuộc tính của đối tượng.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Method là một hàm được lưu trong thuộc tính của đối tượng."
+  },
+  {
+    "question_id": "Q-T06-005",
+    "topic": "doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “this” trong JavaScript?",
+    "options": [
+      "Gán một đối tượng sang biến khác thường sao chép tham chiếu chứ không tạo đối tượng độc lập.",
+      "Trong lời gọi object.method(), this của method thông thường thường là object đứng trước dấu chấm.",
+      "Object destructuring lấy thuộc tính theo tên và có thể đổi tên hoặc đặt giá trị mặc định.",
+      "Object literal dùng cặp ngoặc nhọn để tạo đối tượng gồm các cặp khóa và giá trị."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Trong lời gọi object.method(), this của method thông thường thường là object đứng trước dấu chấm.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Trong lời gọi object.method(), this của method thông thường thường là object đứng trước dấu chấm."
+  },
+  {
+    "question_id": "Q-T06-006",
+    "topic": "doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “tham chiếu đối tượng” trong JavaScript?",
+    "options": [
+      "Cú pháp {...source} tạo bản sao nông nên đối tượng lồng nhau vẫn có thể dùng chung tham chiếu.",
+      "Object.entries trả về mảng các cặp [key, value] của thuộc tính trực tiếp có thể liệt kê.",
+      "Gán một đối tượng sang biến khác thường sao chép tham chiếu chứ không tạo đối tượng độc lập.",
+      "Cú pháp dấu chấm phù hợp khi tên thuộc tính đã biết trước và là tên hợp lệ."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Gán một đối tượng sang biến khác thường sao chép tham chiếu chứ không tạo đối tượng độc lập.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Gán một đối tượng sang biến khác thường sao chép tham chiếu chứ không tạo đối tượng độc lập."
+  },
+  {
+    "question_id": "Q-T06-007",
+    "topic": "doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “object spread” trong JavaScript?",
+    "options": [
+      "Object destructuring lấy thuộc tính theo tên và có thể đổi tên hoặc đặt giá trị mặc định.",
+      "JSON.stringify tạo chuỗi JSON và JSON.parse chuyển chuỗi JSON hợp lệ thành dữ liệu JavaScript.",
+      "Cú pháp ngoặc vuông dùng khi tên thuộc tính nằm trong biến hoặc được tạo động.",
+      "Cú pháp {...source} tạo bản sao nông nên đối tượng lồng nhau vẫn có thể dùng chung tham chiếu."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Cú pháp {...source} tạo bản sao nông nên đối tượng lồng nhau vẫn có thể dùng chung tham chiếu.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Cú pháp {...source} tạo bản sao nông nên đối tượng lồng nhau vẫn có thể dùng chung tham chiếu."
+  },
+  {
+    "question_id": "Q-T06-008",
+    "topic": "doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “object destructuring” trong JavaScript?",
+    "options": [
+      "Object destructuring lấy thuộc tính theo tên và có thể đổi tên hoặc đặt giá trị mặc định.",
+      "Object.entries trả về mảng các cặp [key, value] của thuộc tính trực tiếp có thể liệt kê.",
+      "Object literal dùng cặp ngoặc nhọn để tạo đối tượng gồm các cặp khóa và giá trị.",
+      "Method là một hàm được lưu trong thuộc tính của đối tượng."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Object destructuring lấy thuộc tính theo tên và có thể đổi tên hoặc đặt giá trị mặc định.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Object destructuring lấy thuộc tính theo tên và có thể đổi tên hoặc đặt giá trị mặc định."
+  },
+  {
+    "question_id": "Q-T06-009",
+    "topic": "doi-tuong",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “Object.entries” trong JavaScript?",
+    "options": [
+      "JSON.stringify tạo chuỗi JSON và JSON.parse chuyển chuỗi JSON hợp lệ thành dữ liệu JavaScript.",
+      "Object.entries trả về mảng các cặp [key, value] của thuộc tính trực tiếp có thể liệt kê.",
+      "Cú pháp dấu chấm phù hợp khi tên thuộc tính đã biết trước và là tên hợp lệ.",
+      "Trong lời gọi object.method(), this của method thông thường thường là object đứng trước dấu chấm."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Object.entries trả về mảng các cặp [key, value] của thuộc tính trực tiếp có thể liệt kê.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Object.entries trả về mảng các cặp [key, value] của thuộc tính trực tiếp có thể liệt kê."
+  },
+  {
+    "question_id": "Q-T06-010",
+    "topic": "doi-tuong",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “JSON” trong JavaScript?",
+    "options": [
+      "Object literal dùng cặp ngoặc nhọn để tạo đối tượng gồm các cặp khóa và giá trị.",
+      "Cú pháp ngoặc vuông dùng khi tên thuộc tính nằm trong biến hoặc được tạo động.",
+      "JSON.stringify tạo chuỗi JSON và JSON.parse chuyển chuỗi JSON hợp lệ thành dữ liệu JavaScript.",
+      "Gán một đối tượng sang biến khác thường sao chép tham chiếu chứ không tạo đối tượng độc lập."
+    ],
+    "correct_option": "C",
+    "correct_answer": "JSON.stringify tạo chuỗi JSON và JSON.parse chuyển chuỗi JSON hợp lệ thành dữ liệu JavaScript.",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "JSON.stringify tạo chuỗi JSON và JSON.parse chuyển chuỗi JSON hợp lệ thành dữ liệu JavaScript."
+  },
+  {
+    "question_id": "Q-T06-011",
+    "topic": "doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Tên thuộc tính được lưu trong biến field. Cách đọc đúng từ student là gì?",
+    "options": [
+      "student.field",
+      "student[field]",
+      "student->field",
+      "student::field"
+    ],
+    "correct_option": "B",
+    "correct_answer": "student[field]",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Ngoặc vuông đánh giá biểu thức field và dùng kết quả làm tên thuộc tính."
+  },
+  {
+    "question_id": "Q-T06-012",
+    "topic": "doi-tuong",
+    "difficulty": "hard",
+    "question_text": "Sau const copy = {...original}, vì sao sửa copy.profile.name có thể ảnh hưởng original?",
+    "options": [
+      "Spread xóa dữ liệu",
+      "Spread chỉ sao chép nông",
+      "const luôn dùng chung mọi biến",
+      "JSON tự đồng bộ"
+    ],
+    "correct_option": "B",
+    "correct_answer": "Spread chỉ sao chép nông",
+    "source": "documents/06-doi-tuong.md",
+    "explanation": "Spread chỉ sao chép lớp ngoài; profile lồng bên trong vẫn có thể cùng tham chiếu."
+  },
+  {
+    "question_id": "Q-T07-001",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “class” trong JavaScript?",
+    "options": [
+      "constructor được gọi khi tạo instance bằng new và thường gán trạng thái ban đầu.",
+      "Method khai báo trong thân class được các instance dùng chung qua prototype.",
+      "class mô tả cách tạo các đối tượng có cùng dữ liệu và hành vi.",
+      "Thành viên static thuộc về class và được gọi qua tên class thay vì qua instance."
+    ],
+    "correct_option": "C",
+    "correct_answer": "class mô tả cách tạo các đối tượng có cùng dữ liệu và hành vi.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "class mô tả cách tạo các đối tượng có cùng dữ liệu và hành vi."
+  },
+  {
+    "question_id": "Q-T07-002",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “constructor” trong JavaScript?",
+    "options": [
+      "Toán tử new tạo instance, liên kết prototype và gọi constructor của class.",
+      "extends tạo lớp con kế thừa hành vi từ lớp cha.",
+      "Tên bắt đầu bằng # tạo trường private chỉ truy cập được trong thân class.",
+      "constructor được gọi khi tạo instance bằng new và thường gán trạng thái ban đầu."
+    ],
+    "correct_option": "D",
+    "correct_answer": "constructor được gọi khi tạo instance bằng new và thường gán trạng thái ban đầu.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "constructor được gọi khi tạo instance bằng new và thường gán trạng thái ban đầu."
+  },
+  {
+    "question_id": "Q-T07-003",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “new” trong JavaScript?",
+    "options": [
+      "Toán tử new tạo instance, liên kết prototype và gọi constructor của class.",
+      "Method khai báo trong thân class được các instance dùng chung qua prototype.",
+      "super gọi constructor hoặc method của lớp cha; trong constructor lớp con phải gọi trước khi dùng this.",
+      "Getter và setter kiểm soát cách đọc hoặc gán một giá trị theo cú pháp thuộc tính."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Toán tử new tạo instance, liên kết prototype và gọi constructor của class.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "Toán tử new tạo instance, liên kết prototype và gọi constructor của class."
+  },
+  {
+    "question_id": "Q-T07-004",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “method trên prototype” trong JavaScript?",
+    "options": [
+      "extends tạo lớp con kế thừa hành vi từ lớp cha.",
+      "Method khai báo trong thân class được các instance dùng chung qua prototype.",
+      "Thành viên static thuộc về class và được gọi qua tên class thay vì qua instance.",
+      "instanceof kiểm tra prototype chain của đối tượng có chứa prototype của class hay không."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Method khai báo trong thân class được các instance dùng chung qua prototype.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "Method khai báo trong thân class được các instance dùng chung qua prototype."
+  },
+  {
+    "question_id": "Q-T07-005",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “extends” trong JavaScript?",
+    "options": [
+      "super gọi constructor hoặc method của lớp cha; trong constructor lớp con phải gọi trước khi dùng this.",
+      "Tên bắt đầu bằng # tạo trường private chỉ truy cập được trong thân class.",
+      "extends tạo lớp con kế thừa hành vi từ lớp cha.",
+      "class mô tả cách tạo các đối tượng có cùng dữ liệu và hành vi."
+    ],
+    "correct_option": "C",
+    "correct_answer": "extends tạo lớp con kế thừa hành vi từ lớp cha.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "extends tạo lớp con kế thừa hành vi từ lớp cha."
+  },
+  {
+    "question_id": "Q-T07-006",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “super” trong JavaScript?",
+    "options": [
+      "Thành viên static thuộc về class và được gọi qua tên class thay vì qua instance.",
+      "Getter và setter kiểm soát cách đọc hoặc gán một giá trị theo cú pháp thuộc tính.",
+      "constructor được gọi khi tạo instance bằng new và thường gán trạng thái ban đầu.",
+      "super gọi constructor hoặc method của lớp cha; trong constructor lớp con phải gọi trước khi dùng this."
+    ],
+    "correct_option": "D",
+    "correct_answer": "super gọi constructor hoặc method của lớp cha; trong constructor lớp con phải gọi trước khi dùng this.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "super gọi constructor hoặc method của lớp cha; trong constructor lớp con phải gọi trước khi dùng this."
+  },
+  {
+    "question_id": "Q-T07-007",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “static” trong JavaScript?",
+    "options": [
+      "Thành viên static thuộc về class và được gọi qua tên class thay vì qua instance.",
+      "Tên bắt đầu bằng # tạo trường private chỉ truy cập được trong thân class.",
+      "instanceof kiểm tra prototype chain của đối tượng có chứa prototype của class hay không.",
+      "Toán tử new tạo instance, liên kết prototype và gọi constructor của class."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Thành viên static thuộc về class và được gọi qua tên class thay vì qua instance.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "Thành viên static thuộc về class và được gọi qua tên class thay vì qua instance."
+  },
+  {
+    "question_id": "Q-T07-008",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “private field” trong JavaScript?",
+    "options": [
+      "Getter và setter kiểm soát cách đọc hoặc gán một giá trị theo cú pháp thuộc tính.",
+      "Tên bắt đầu bằng # tạo trường private chỉ truy cập được trong thân class.",
+      "class mô tả cách tạo các đối tượng có cùng dữ liệu và hành vi.",
+      "Method khai báo trong thân class được các instance dùng chung qua prototype."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Tên bắt đầu bằng # tạo trường private chỉ truy cập được trong thân class.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "Tên bắt đầu bằng # tạo trường private chỉ truy cập được trong thân class."
+  },
+  {
+    "question_id": "Q-T07-009",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “getter và setter” trong JavaScript?",
+    "options": [
+      "instanceof kiểm tra prototype chain của đối tượng có chứa prototype của class hay không.",
+      "constructor được gọi khi tạo instance bằng new và thường gán trạng thái ban đầu.",
+      "Getter và setter kiểm soát cách đọc hoặc gán một giá trị theo cú pháp thuộc tính.",
+      "extends tạo lớp con kế thừa hành vi từ lớp cha."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Getter và setter kiểm soát cách đọc hoặc gán một giá trị theo cú pháp thuộc tính.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "Getter và setter kiểm soát cách đọc hoặc gán một giá trị theo cú pháp thuộc tính."
+  },
+  {
+    "question_id": "Q-T07-010",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “instanceof” trong JavaScript?",
+    "options": [
+      "class mô tả cách tạo các đối tượng có cùng dữ liệu và hành vi.",
+      "Toán tử new tạo instance, liên kết prototype và gọi constructor của class.",
+      "super gọi constructor hoặc method của lớp cha; trong constructor lớp con phải gọi trước khi dùng this.",
+      "instanceof kiểm tra prototype chain của đối tượng có chứa prototype của class hay không."
+    ],
+    "correct_option": "D",
+    "correct_answer": "instanceof kiểm tra prototype chain của đối tượng có chứa prototype của class hay không.",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "instanceof kiểm tra prototype chain của đối tượng có chứa prototype của class hay không."
+  },
+  {
+    "question_id": "Q-T07-011",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "medium",
+    "question_text": "Trong constructor của lớp con, thao tác nào phải thực hiện trước khi dùng this?",
+    "options": [
+      "Gọi static",
+      "Gọi super(...) ",
+      "Gọi JSON.parse",
+      "Gọi instanceof"
+    ],
+    "correct_option": "B",
+    "correct_answer": "Gọi super(...) ",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "Constructor lớp con phải gọi super trước khi truy cập this."
+  },
+  {
+    "question_id": "Q-T07-012",
+    "topic": "lop-va-huong-doi-tuong",
+    "difficulty": "hard",
+    "question_text": "Hàm Score.isValid được khai báo static. Cách gọi nào đúng?",
+    "options": [
+      "new Score().prototype.isValid()",
+      "Score.isValid(8)",
+      "this.isValid bắt buộc",
+      "isValid.Score(8)"
+    ],
+    "correct_option": "B",
+    "correct_answer": "Score.isValid(8)",
+    "source": "documents/07-lop-va-huong-doi-tuong.md",
+    "explanation": "Method static thuộc class nên gọi trực tiếp qua tên class."
+  },
+  {
+    "question_id": "Q-T08-001",
+    "topic": "bat-dong-bo",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “event loop” trong JavaScript?",
+    "options": [
+      "Callback bất đồng bộ là hàm được gọi sau khi một thao tác hoặc thời điểm đã hoàn thành.",
+      "Promise có ba trạng thái pending, fulfilled và rejected; trạng thái đã kết thúc không đổi lại.",
+      "await chờ một Promise bên trong hàm async và ném lỗi nếu Promise bị từ chối.",
+      "Event loop đưa callback sẵn sàng vào thực thi khi call stack đã trống."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Event loop đưa callback sẵn sàng vào thực thi khi call stack đã trống.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "Event loop đưa callback sẵn sàng vào thực thi khi call stack đã trống."
+  },
+  {
+    "question_id": "Q-T08-002",
+    "topic": "bat-dong-bo",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “callback bất đồng bộ” trong JavaScript?",
+    "options": [
+      "Callback bất đồng bộ là hàm được gọi sau khi một thao tác hoặc thời điểm đã hoàn thành.",
+      "Promise biểu diễn kết quả tương lai của một thao tác bất đồng bộ.",
+      "then xử lý thành công, catch xử lý lỗi và finally chạy sau cùng dù thành công hay thất bại.",
+      "Promise.all chờ tất cả Promise thành công nhưng reject ngay khi một Promise reject."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Callback bất đồng bộ là hàm được gọi sau khi một thao tác hoặc thời điểm đã hoàn thành.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "Callback bất đồng bộ là hàm được gọi sau khi một thao tác hoặc thời điểm đã hoàn thành."
+  },
+  {
+    "question_id": "Q-T08-003",
+    "topic": "bat-dong-bo",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “Promise” trong JavaScript?",
+    "options": [
+      "Promise có ba trạng thái pending, fulfilled và rejected; trạng thái đã kết thúc không đổi lại.",
+      "Promise biểu diễn kết quả tương lai của một thao tác bất đồng bộ.",
+      "Hàm có từ khóa async luôn trả về một Promise.",
+      "Promise.allSettled chờ tất cả Promise và trả trạng thái của từng tác vụ."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Promise biểu diễn kết quả tương lai của một thao tác bất đồng bộ.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "Promise biểu diễn kết quả tương lai của một thao tác bất đồng bộ."
+  },
+  {
+    "question_id": "Q-T08-004",
+    "topic": "bat-dong-bo",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “trạng thái Promise” trong JavaScript?",
+    "options": [
+      "then xử lý thành công, catch xử lý lỗi và finally chạy sau cùng dù thành công hay thất bại.",
+      "await chờ một Promise bên trong hàm async và ném lỗi nếu Promise bị từ chối.",
+      "Promise có ba trạng thái pending, fulfilled và rejected; trạng thái đã kết thúc không đổi lại.",
+      "fetch không tự reject với mã HTTP 404 hoặc 500 nên cần kiểm tra response.ok."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Promise có ba trạng thái pending, fulfilled và rejected; trạng thái đã kết thúc không đổi lại.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "Promise có ba trạng thái pending, fulfilled và rejected; trạng thái đã kết thúc không đổi lại."
+  },
+  {
+    "question_id": "Q-T08-005",
+    "topic": "bat-dong-bo",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “then catch finally” trong JavaScript?",
+    "options": [
+      "Hàm có từ khóa async luôn trả về một Promise.",
+      "Promise.all chờ tất cả Promise thành công nhưng reject ngay khi một Promise reject.",
+      "Event loop đưa callback sẵn sàng vào thực thi khi call stack đã trống.",
+      "then xử lý thành công, catch xử lý lỗi và finally chạy sau cùng dù thành công hay thất bại."
+    ],
+    "correct_option": "D",
+    "correct_answer": "then xử lý thành công, catch xử lý lỗi và finally chạy sau cùng dù thành công hay thất bại.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "then xử lý thành công, catch xử lý lỗi và finally chạy sau cùng dù thành công hay thất bại."
+  },
+  {
+    "question_id": "Q-T08-006",
+    "topic": "bat-dong-bo",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “async” trong JavaScript?",
+    "options": [
+      "Hàm có từ khóa async luôn trả về một Promise.",
+      "await chờ một Promise bên trong hàm async và ném lỗi nếu Promise bị từ chối.",
+      "Promise.allSettled chờ tất cả Promise và trả trạng thái của từng tác vụ.",
+      "Callback bất đồng bộ là hàm được gọi sau khi một thao tác hoặc thời điểm đã hoàn thành."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Hàm có từ khóa async luôn trả về một Promise.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "Hàm có từ khóa async luôn trả về một Promise."
+  },
+  {
+    "question_id": "Q-T08-007",
+    "topic": "bat-dong-bo",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “await” trong JavaScript?",
+    "options": [
+      "Promise.all chờ tất cả Promise thành công nhưng reject ngay khi một Promise reject.",
+      "await chờ một Promise bên trong hàm async và ném lỗi nếu Promise bị từ chối.",
+      "fetch không tự reject với mã HTTP 404 hoặc 500 nên cần kiểm tra response.ok.",
+      "Promise biểu diễn kết quả tương lai của một thao tác bất đồng bộ."
+    ],
+    "correct_option": "B",
+    "correct_answer": "await chờ một Promise bên trong hàm async và ném lỗi nếu Promise bị từ chối.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "await chờ một Promise bên trong hàm async và ném lỗi nếu Promise bị từ chối."
+  },
+  {
+    "question_id": "Q-T08-008",
+    "topic": "bat-dong-bo",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “Promise.all” trong JavaScript?",
+    "options": [
+      "Promise.allSettled chờ tất cả Promise và trả trạng thái của từng tác vụ.",
+      "Event loop đưa callback sẵn sàng vào thực thi khi call stack đã trống.",
+      "Promise.all chờ tất cả Promise thành công nhưng reject ngay khi một Promise reject.",
+      "Promise có ba trạng thái pending, fulfilled và rejected; trạng thái đã kết thúc không đổi lại."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Promise.all chờ tất cả Promise thành công nhưng reject ngay khi một Promise reject.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "Promise.all chờ tất cả Promise thành công nhưng reject ngay khi một Promise reject."
+  },
+  {
+    "question_id": "Q-T08-009",
+    "topic": "bat-dong-bo",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “Promise.allSettled” trong JavaScript?",
+    "options": [
+      "fetch không tự reject với mã HTTP 404 hoặc 500 nên cần kiểm tra response.ok.",
+      "Callback bất đồng bộ là hàm được gọi sau khi một thao tác hoặc thời điểm đã hoàn thành.",
+      "then xử lý thành công, catch xử lý lỗi và finally chạy sau cùng dù thành công hay thất bại.",
+      "Promise.allSettled chờ tất cả Promise và trả trạng thái của từng tác vụ."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Promise.allSettled chờ tất cả Promise và trả trạng thái của từng tác vụ.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "Promise.allSettled chờ tất cả Promise và trả trạng thái của từng tác vụ."
+  },
+  {
+    "question_id": "Q-T08-010",
+    "topic": "bat-dong-bo",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “response.ok” trong JavaScript?",
+    "options": [
+      "fetch không tự reject với mã HTTP 404 hoặc 500 nên cần kiểm tra response.ok.",
+      "Event loop đưa callback sẵn sàng vào thực thi khi call stack đã trống.",
+      "Promise biểu diễn kết quả tương lai của một thao tác bất đồng bộ.",
+      "Hàm có từ khóa async luôn trả về một Promise."
+    ],
+    "correct_option": "A",
+    "correct_answer": "fetch không tự reject với mã HTTP 404 hoặc 500 nên cần kiểm tra response.ok.",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "fetch không tự reject với mã HTTP 404 hoặc 500 nên cần kiểm tra response.ok."
+  },
+  {
+    "question_id": "Q-T08-011",
+    "topic": "bat-dong-bo",
+    "difficulty": "medium",
+    "question_text": "Hai yêu cầu API độc lập cần chạy song song và đều phải thành công. Nên dùng cách nào?",
+    "options": [
+      "Hai await tuần tự",
+      "Promise.all",
+      "forEach không callback",
+      "JSON.stringify"
+    ],
+    "correct_option": "B",
+    "correct_answer": "Promise.all",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "Promise.all cho phép chờ các tác vụ độc lập chạy song song và báo lỗi nếu một tác vụ thất bại."
+  },
+  {
+    "question_id": "Q-T08-012",
+    "topic": "bat-dong-bo",
+    "difficulty": "hard",
+    "question_text": "Vì sao fetch nhận HTTP 500 vẫn có thể đi vào nhánh thành công của await?",
+    "options": [
+      "fetch bỏ qua mạng",
+      "fetch chỉ reject với lỗi mạng hoặc hủy, cần kiểm tra response.ok",
+      "HTTP 500 là thành công",
+      "await đổi 500 thành 200"
+    ],
+    "correct_option": "B",
+    "correct_answer": "fetch chỉ reject với lỗi mạng hoặc hủy, cần kiểm tra response.ok",
+    "source": "documents/08-bat-dong-bo.md",
+    "explanation": "fetch trả Response cho lỗi HTTP; chương trình phải tự kiểm tra response.ok."
+  },
+  {
+    "question_id": "Q-T09-001",
+    "topic": "module",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “module” trong JavaScript?",
+    "options": [
+      "Module chia chương trình thành các file có trách nhiệm rõ và phạm vi riêng.",
+      "export công khai giá trị từ một module để module khác có thể import.",
+      "Named export cho phép xuất nhiều giá trị và khi import thường phải dùng đúng tên.",
+      "Node.js nhận ES module qua đuôi .mjs hoặc package.json có type là module."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Module chia chương trình thành các file có trách nhiệm rõ và phạm vi riêng.",
+    "source": "documents/09-module.md",
+    "explanation": "Module chia chương trình thành các file có trách nhiệm rõ và phạm vi riêng."
+  },
+  {
+    "question_id": "Q-T09-002",
+    "topic": "module",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “export” trong JavaScript?",
+    "options": [
+      "import khai báo phụ thuộc và lấy giá trị được export từ module khác.",
+      "export công khai giá trị từ một module để module khác có thể import.",
+      "Mỗi module có tối đa một default export và bên import có thể tự đặt tên.",
+      "CommonJS dùng require và module.exports, phổ biến trong nhiều dự án Node.js."
+    ],
+    "correct_option": "B",
+    "correct_answer": "export công khai giá trị từ một module để module khác có thể import.",
+    "source": "documents/09-module.md",
+    "explanation": "export công khai giá trị từ một module để module khác có thể import."
+  },
+  {
+    "question_id": "Q-T09-003",
+    "topic": "module",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “import” trong JavaScript?",
+    "options": [
+      "Named export cho phép xuất nhiều giá trị và khi import thường phải dùng đúng tên.",
+      "Trên trình duyệt, thuộc tính type=module cho phép script dùng cú pháp import và export.",
+      "import khai báo phụ thuộc và lấy giá trị được export từ module khác.",
+      "import() trả về Promise và tải module khi chương trình cần đến."
+    ],
+    "correct_option": "C",
+    "correct_answer": "import khai báo phụ thuộc và lấy giá trị được export từ module khác.",
+    "source": "documents/09-module.md",
+    "explanation": "import khai báo phụ thuộc và lấy giá trị được export từ module khác."
+  },
+  {
+    "question_id": "Q-T09-004",
+    "topic": "module",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “named export” trong JavaScript?",
+    "options": [
+      "Mỗi module có tối đa một default export và bên import có thể tự đặt tên.",
+      "Node.js nhận ES module qua đuôi .mjs hoặc package.json có type là module.",
+      "Circular dependency xảy ra khi các module phụ thuộc ngược lại nhau trực tiếp hoặc gián tiếp.",
+      "Named export cho phép xuất nhiều giá trị và khi import thường phải dùng đúng tên."
+    ],
+    "correct_option": "D",
+    "correct_answer": "Named export cho phép xuất nhiều giá trị và khi import thường phải dùng đúng tên.",
+    "source": "documents/09-module.md",
+    "explanation": "Named export cho phép xuất nhiều giá trị và khi import thường phải dùng đúng tên."
+  },
+  {
+    "question_id": "Q-T09-005",
+    "topic": "module",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “default export” trong JavaScript?",
+    "options": [
+      "Mỗi module có tối đa một default export và bên import có thể tự đặt tên.",
+      "Trên trình duyệt, thuộc tính type=module cho phép script dùng cú pháp import và export.",
+      "CommonJS dùng require và module.exports, phổ biến trong nhiều dự án Node.js.",
+      "Module chia chương trình thành các file có trách nhiệm rõ và phạm vi riêng."
+    ],
+    "correct_option": "A",
+    "correct_answer": "Mỗi module có tối đa một default export và bên import có thể tự đặt tên.",
+    "source": "documents/09-module.md",
+    "explanation": "Mỗi module có tối đa một default export và bên import có thể tự đặt tên."
+  },
+  {
+    "question_id": "Q-T09-006",
+    "topic": "module",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “script type module” trong JavaScript?",
+    "options": [
+      "Node.js nhận ES module qua đuôi .mjs hoặc package.json có type là module.",
+      "Trên trình duyệt, thuộc tính type=module cho phép script dùng cú pháp import và export.",
+      "import() trả về Promise và tải module khi chương trình cần đến.",
+      "export công khai giá trị từ một module để module khác có thể import."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Trên trình duyệt, thuộc tính type=module cho phép script dùng cú pháp import và export.",
+    "source": "documents/09-module.md",
+    "explanation": "Trên trình duyệt, thuộc tính type=module cho phép script dùng cú pháp import và export."
+  },
+  {
+    "question_id": "Q-T09-007",
+    "topic": "module",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “ES module trong Node.js” trong JavaScript?",
+    "options": [
+      "CommonJS dùng require và module.exports, phổ biến trong nhiều dự án Node.js.",
+      "Circular dependency xảy ra khi các module phụ thuộc ngược lại nhau trực tiếp hoặc gián tiếp.",
+      "Node.js nhận ES module qua đuôi .mjs hoặc package.json có type là module.",
+      "import khai báo phụ thuộc và lấy giá trị được export từ module khác."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Node.js nhận ES module qua đuôi .mjs hoặc package.json có type là module.",
+    "source": "documents/09-module.md",
+    "explanation": "Node.js nhận ES module qua đuôi .mjs hoặc package.json có type là module."
+  },
+  {
+    "question_id": "Q-T09-008",
+    "topic": "module",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “CommonJS” trong JavaScript?",
+    "options": [
+      "import() trả về Promise và tải module khi chương trình cần đến.",
+      "Module chia chương trình thành các file có trách nhiệm rõ và phạm vi riêng.",
+      "Named export cho phép xuất nhiều giá trị và khi import thường phải dùng đúng tên.",
+      "CommonJS dùng require và module.exports, phổ biến trong nhiều dự án Node.js."
+    ],
+    "correct_option": "D",
+    "correct_answer": "CommonJS dùng require và module.exports, phổ biến trong nhiều dự án Node.js.",
+    "source": "documents/09-module.md",
+    "explanation": "CommonJS dùng require và module.exports, phổ biến trong nhiều dự án Node.js."
+  },
+  {
+    "question_id": "Q-T09-009",
+    "topic": "module",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “dynamic import” trong JavaScript?",
+    "options": [
+      "import() trả về Promise và tải module khi chương trình cần đến.",
+      "Circular dependency xảy ra khi các module phụ thuộc ngược lại nhau trực tiếp hoặc gián tiếp.",
+      "export công khai giá trị từ một module để module khác có thể import.",
+      "Mỗi module có tối đa một default export và bên import có thể tự đặt tên."
+    ],
+    "correct_option": "A",
+    "correct_answer": "import() trả về Promise và tải module khi chương trình cần đến.",
+    "source": "documents/09-module.md",
+    "explanation": "import() trả về Promise và tải module khi chương trình cần đến."
+  },
+  {
+    "question_id": "Q-T09-010",
+    "topic": "module",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “circular dependency” trong JavaScript?",
+    "options": [
+      "Module chia chương trình thành các file có trách nhiệm rõ và phạm vi riêng.",
+      "Circular dependency xảy ra khi các module phụ thuộc ngược lại nhau trực tiếp hoặc gián tiếp.",
+      "import khai báo phụ thuộc và lấy giá trị được export từ module khác.",
+      "Trên trình duyệt, thuộc tính type=module cho phép script dùng cú pháp import và export."
+    ],
+    "correct_option": "B",
+    "correct_answer": "Circular dependency xảy ra khi các module phụ thuộc ngược lại nhau trực tiếp hoặc gián tiếp.",
+    "source": "documents/09-module.md",
+    "explanation": "Circular dependency xảy ra khi các module phụ thuộc ngược lại nhau trực tiếp hoặc gián tiếp."
+  },
+  {
+    "question_id": "Q-T09-011",
+    "topic": "module",
+    "difficulty": "medium",
+    "question_text": "Một file xuất nhiều hàm độc lập và muốn tên import rõ ràng. Kiểu export nào phù hợp?",
+    "options": [
+      "Named export",
+      "Chỉ global variable",
+      "Không export",
+      "JSON.parse"
+    ],
+    "correct_option": "A",
+    "correct_answer": "Named export",
+    "source": "documents/09-module.md",
+    "explanation": "Named export phù hợp khi module công khai nhiều giá trị có tên rõ ràng."
+  },
+  {
+    "question_id": "Q-T09-012",
+    "topic": "module",
+    "difficulty": "hard",
+    "question_text": "Cách đơn giản để giảm phụ thuộc vòng giữa module A và B là gì?",
+    "options": [
+      "Cho A và B import thêm nhau",
+      "Tách phần dùng chung sang module thứ ba",
+      "Đổi mọi biến thành var",
+      "Dùng vòng lặp"
+    ],
+    "correct_option": "B",
+    "correct_answer": "Tách phần dùng chung sang module thứ ba",
+    "source": "documents/09-module.md",
+    "explanation": "Tách trách nhiệm dùng chung sang module thứ ba giúp A và B không còn phụ thuộc ngược."
+  },
+  {
+    "question_id": "Q-T10-001",
+    "topic": "dom-va-su-kien",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “DOM” trong JavaScript?",
+    "options": [
+      "querySelector trả phần tử đầu tiên khớp CSS selector hoặc null nếu không tìm thấy.",
+      "DOM biểu diễn tài liệu HTML thành cây đối tượng mà JavaScript có thể đọc và thay đổi.",
+      "textContent đọc hoặc gán văn bản thuần và không phân tích chuỗi thành HTML.",
+      "addEventListener đăng ký hàm xử lý sự kiện mà không ghi đè listener khác."
+    ],
+    "correct_option": "B",
+    "correct_answer": "DOM biểu diễn tài liệu HTML thành cây đối tượng mà JavaScript có thể đọc và thay đổi.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "DOM biểu diễn tài liệu HTML thành cây đối tượng mà JavaScript có thể đọc và thay đổi."
+  },
+  {
+    "question_id": "Q-T10-002",
+    "topic": "dom-va-su-kien",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “querySelector” trong JavaScript?",
+    "options": [
+      "querySelectorAll trả NodeList gồm tất cả phần tử khớp selector.",
+      "innerHTML phân tích chuỗi thành HTML và có rủi ro chèn mã nếu dùng dữ liệu chưa làm sạch.",
+      "querySelector trả phần tử đầu tiên khớp CSS selector hoặc null nếu không tìm thấy.",
+      "event.target là nơi phát sinh sự kiện, còn currentTarget là phần tử đang chạy listener."
+    ],
+    "correct_option": "C",
+    "correct_answer": "querySelector trả phần tử đầu tiên khớp CSS selector hoặc null nếu không tìm thấy.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "querySelector trả phần tử đầu tiên khớp CSS selector hoặc null nếu không tìm thấy."
+  },
+  {
+    "question_id": "Q-T10-003",
+    "topic": "dom-va-su-kien",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “querySelectorAll” trong JavaScript?",
+    "options": [
+      "textContent đọc hoặc gán văn bản thuần và không phân tích chuỗi thành HTML.",
+      "document.createElement tạo một phần tử DOM mới nhưng chưa tự thêm vào trang.",
+      "preventDefault ngăn hành vi mặc định của sự kiện như gửi form hoặc mở liên kết.",
+      "querySelectorAll trả NodeList gồm tất cả phần tử khớp selector."
+    ],
+    "correct_option": "D",
+    "correct_answer": "querySelectorAll trả NodeList gồm tất cả phần tử khớp selector.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "querySelectorAll trả NodeList gồm tất cả phần tử khớp selector."
+  },
+  {
+    "question_id": "Q-T10-004",
+    "topic": "dom-va-su-kien",
+    "difficulty": "easy",
+    "question_text": "Mô tả nào đúng nhất về “textContent” trong JavaScript?",
+    "options": [
+      "textContent đọc hoặc gán văn bản thuần và không phân tích chuỗi thành HTML.",
+      "innerHTML phân tích chuỗi thành HTML và có rủi ro chèn mã nếu dùng dữ liệu chưa làm sạch.",
+      "addEventListener đăng ký hàm xử lý sự kiện mà không ghi đè listener khác.",
+      "Event delegation đặt listener ở phần tử cha và xử lý sự kiện nổi bọt từ phần tử con."
+    ],
+    "correct_option": "A",
+    "correct_answer": "textContent đọc hoặc gán văn bản thuần và không phân tích chuỗi thành HTML.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "textContent đọc hoặc gán văn bản thuần và không phân tích chuỗi thành HTML."
+  },
+  {
+    "question_id": "Q-T10-005",
+    "topic": "dom-va-su-kien",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “innerHTML” trong JavaScript?",
+    "options": [
+      "document.createElement tạo một phần tử DOM mới nhưng chưa tự thêm vào trang.",
+      "innerHTML phân tích chuỗi thành HTML và có rủi ro chèn mã nếu dùng dữ liệu chưa làm sạch.",
+      "event.target là nơi phát sinh sự kiện, còn currentTarget là phần tử đang chạy listener.",
+      "DOM biểu diễn tài liệu HTML thành cây đối tượng mà JavaScript có thể đọc và thay đổi."
+    ],
+    "correct_option": "B",
+    "correct_answer": "innerHTML phân tích chuỗi thành HTML và có rủi ro chèn mã nếu dùng dữ liệu chưa làm sạch.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "innerHTML phân tích chuỗi thành HTML và có rủi ro chèn mã nếu dùng dữ liệu chưa làm sạch."
+  },
+  {
+    "question_id": "Q-T10-006",
+    "topic": "dom-va-su-kien",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “createElement” trong JavaScript?",
+    "options": [
+      "addEventListener đăng ký hàm xử lý sự kiện mà không ghi đè listener khác.",
+      "preventDefault ngăn hành vi mặc định của sự kiện như gửi form hoặc mở liên kết.",
+      "document.createElement tạo một phần tử DOM mới nhưng chưa tự thêm vào trang.",
+      "querySelector trả phần tử đầu tiên khớp CSS selector hoặc null nếu không tìm thấy."
+    ],
+    "correct_option": "C",
+    "correct_answer": "document.createElement tạo một phần tử DOM mới nhưng chưa tự thêm vào trang.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "document.createElement tạo một phần tử DOM mới nhưng chưa tự thêm vào trang."
+  },
+  {
+    "question_id": "Q-T10-007",
+    "topic": "dom-va-su-kien",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “addEventListener” trong JavaScript?",
+    "options": [
+      "event.target là nơi phát sinh sự kiện, còn currentTarget là phần tử đang chạy listener.",
+      "Event delegation đặt listener ở phần tử cha và xử lý sự kiện nổi bọt từ phần tử con.",
+      "querySelectorAll trả NodeList gồm tất cả phần tử khớp selector.",
+      "addEventListener đăng ký hàm xử lý sự kiện mà không ghi đè listener khác."
+    ],
+    "correct_option": "D",
+    "correct_answer": "addEventListener đăng ký hàm xử lý sự kiện mà không ghi đè listener khác.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "addEventListener đăng ký hàm xử lý sự kiện mà không ghi đè listener khác."
+  },
+  {
+    "question_id": "Q-T10-008",
+    "topic": "dom-va-su-kien",
+    "difficulty": "medium",
+    "question_text": "Mô tả nào đúng nhất về “target và currentTarget” trong JavaScript?",
+    "options": [
+      "event.target là nơi phát sinh sự kiện, còn currentTarget là phần tử đang chạy listener.",
+      "preventDefault ngăn hành vi mặc định của sự kiện như gửi form hoặc mở liên kết.",
+      "DOM biểu diễn tài liệu HTML thành cây đối tượng mà JavaScript có thể đọc và thay đổi.",
+      "textContent đọc hoặc gán văn bản thuần và không phân tích chuỗi thành HTML."
+    ],
+    "correct_option": "A",
+    "correct_answer": "event.target là nơi phát sinh sự kiện, còn currentTarget là phần tử đang chạy listener.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "event.target là nơi phát sinh sự kiện, còn currentTarget là phần tử đang chạy listener."
+  },
+  {
+    "question_id": "Q-T10-009",
+    "topic": "dom-va-su-kien",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “preventDefault” trong JavaScript?",
+    "options": [
+      "Event delegation đặt listener ở phần tử cha và xử lý sự kiện nổi bọt từ phần tử con.",
+      "preventDefault ngăn hành vi mặc định của sự kiện như gửi form hoặc mở liên kết.",
+      "querySelector trả phần tử đầu tiên khớp CSS selector hoặc null nếu không tìm thấy.",
+      "innerHTML phân tích chuỗi thành HTML và có rủi ro chèn mã nếu dùng dữ liệu chưa làm sạch."
+    ],
+    "correct_option": "B",
+    "correct_answer": "preventDefault ngăn hành vi mặc định của sự kiện như gửi form hoặc mở liên kết.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "preventDefault ngăn hành vi mặc định của sự kiện như gửi form hoặc mở liên kết."
+  },
+  {
+    "question_id": "Q-T10-010",
+    "topic": "dom-va-su-kien",
+    "difficulty": "hard",
+    "question_text": "Mô tả nào đúng nhất về “event delegation” trong JavaScript?",
+    "options": [
+      "DOM biểu diễn tài liệu HTML thành cây đối tượng mà JavaScript có thể đọc và thay đổi.",
+      "querySelectorAll trả NodeList gồm tất cả phần tử khớp selector.",
+      "Event delegation đặt listener ở phần tử cha và xử lý sự kiện nổi bọt từ phần tử con.",
+      "document.createElement tạo một phần tử DOM mới nhưng chưa tự thêm vào trang."
+    ],
+    "correct_option": "C",
+    "correct_answer": "Event delegation đặt listener ở phần tử cha và xử lý sự kiện nổi bọt từ phần tử con.",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "Event delegation đặt listener ở phần tử cha và xử lý sự kiện nổi bọt từ phần tử con."
+  },
+  {
+    "question_id": "Q-T10-011",
+    "topic": "dom-va-su-kien",
+    "difficulty": "medium",
+    "question_text": "Khi chỉ hiển thị tên học viên do người dùng nhập, thuộc tính nào an toàn và phù hợp hơn?",
+    "options": [
+      "innerHTML",
+      "textContent",
+      "outerHTML",
+      "document.write"
+    ],
+    "correct_option": "B",
+    "correct_answer": "textContent",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "textContent hiển thị văn bản thuần nên không phân tích dữ liệu thành HTML."
+  },
+  {
+    "question_id": "Q-T10-012",
+    "topic": "dom-va-su-kien",
+    "difficulty": "hard",
+    "question_text": "Danh sách bài học được thêm động. Cách nào giảm việc gắn listener cho từng dòng?",
+    "options": [
+      "Event delegation ở phần tử cha",
+      "Gọi innerHTML liên tục",
+      "Dùng var toàn cục",
+      "Tắt sự kiện"
+    ],
+    "correct_option": "A",
+    "correct_answer": "Event delegation ở phần tử cha",
+    "source": "documents/10-dom-va-su-kien.md",
+    "explanation": "Event delegation dùng một listener ở cha và nhận sự kiện nổi bọt từ các phần tử con, kể cả phần tử thêm sau."
+  }
+]

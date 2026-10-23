@@ -1,0 +1,11 @@
+-- Sao chep file nay thanh create-app-user.sql va thay mat khau truoc khi chay.
+-- Khong dua file co mat khau that len GitHub.
+
+CREATE USER IF NOT EXISTS 'datn_app'@'localhost'
+  IDENTIFIED BY 'THAY_BANG_MAT_KHAU_MANH';
+
+GRANT SELECT, INSERT, UPDATE, DELETE
+  ON datn_learning.* TO 'datn_app'@'localhost';
+
+FLUSH PRIVILEGES;
+SHOW GRANTS FOR 'datn_app'@'localhost';

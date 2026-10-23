@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hệ thống học tập trực tuyến tích hợp RAG hỗ trợ ôn tập JavaScript.">
+  <title>DATN Learning — Học JavaScript cùng RAG</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div id="login-view" class="login-shell">
+    <section class="login-intro" aria-labelledby="intro-title">
+      <a class="brand brand-light" href="#" aria-label="DATN Learning">
+        <span class="brand-mark">D</span>
+        <span>DATN Learning</span>
+      </a>
+      <div class="intro-copy">
+        <p class="eyebrow">ĐỒ ÁN TỐT NGHIỆP 2026</p>
+        <h1 id="intro-title">Học đúng phần yếu,<br>ôn đúng tài liệu.</h1>
+        <p>Hệ thống học tập JavaScript tích hợp RAG, giúp câu trả lời bám sát học liệu và luôn đi kèm nguồn tham chiếu.</p>
+        <div class="intro-features" aria-label="Tính năng chính">
+          <div><span>01</span><p>Học liệu được tổ chức theo 10 chủ đề</p></div>
+          <div><span>02</span><p>Theo dõi tiến độ theo từng bài học</p></div>
+          <div><span>03</span><p>Hỏi đáp RAG có nguồn kiểm chứng</p></div>
+        </div>
+      </div>
+      <p class="intro-footer">Trường Đại học Tài nguyên và Môi trường TP.HCM</p>
+    </section>
+
+    <main class="login-panel">
+      <div class="login-card">
+        <div class="mobile-brand">
+          <span class="brand-mark">D</span>
+          <strong>DATN Learning</strong>
+        </div>
+        <p class="eyebrow eyebrow-dark">CHÀO MỪNG TRỞ LẠI</p>
+        <h2>Đăng nhập hệ thống</h2>
+        <p class="muted">Sử dụng tài khoản được cấp để tiếp tục học tập.</p>
+
+        <form id="login-form" class="form-stack" novalidate>
+          <label>
+            <span>Email</span>
+            <input id="login-email" type="email" autocomplete="username" placeholder="hocvien@datn.local" required>
+          </label>
+          <label>
+            <span>Mật khẩu</span>
+            <div class="password-field">
+              <input id="login-password" type="password" autocomplete="current-password" placeholder="Nhập mật khẩu" required>
+              <button id="toggle-password" type="button" class="text-button" aria-label="Hiện mật khẩu">Hiện</button>
+            </div>
+          </label>
+          <p id="login-error" class="form-error" role="alert"></p>
+          <button class="button button-primary button-large" type="submit">
+            <span>Đăng nhập</span><span aria-hidden="true">→</span>
+          </button>
+        </form>
+
+        <div class="demo-box">
+          <p><strong>Tài khoản demo cục bộ</strong></p>
+          <div class="demo-buttons">
+            <button type="button" data-demo-role="student">Học viên</button>
+            <button type="button" data-demo-role="teacher">Giảng viên</button>
+            <button type="button" data-demo-role="admin">Quản trị</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div id="app-view" class="app-shell" hidden>
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-brand">
+        <span class="brand-mark">D</span>
+        <div><strong>DATN</strong><small>Learning</small></div>
+      </div>
+      <nav id="main-navigation" class="main-nav" aria-label="Điều hướng chính"></nav>
+      <div class="sidebar-note">
+        <span class="status-dot"></span>
+        <div><strong>RAG sẵn sàng</strong><small>74 đoạn học liệu</small></div>
+      </div>
+      <button id="logout-button" class="logout-button" type="button"><span>↪</span> Đăng xuất</button>
+    </aside>
+
+    <div class="app-area">
+      <header class="topbar">
+        <button id="menu-button" class="icon-button menu-button" type="button" aria-label="Mở menu">☰</button>
+        <div>
+          <p id="page-kicker" class="topbar-kicker">KHÔNG GIAN HỌC TẬP</p>
+          <h1 id="page-title">Tổng quan</h1>
+        </div>
+        <div class="topbar-actions">
+          <div class="today"><span>Hôm nay</span><strong id="today-label"></strong></div>
+          <div class="user-chip">
+            <span id="user-avatar" class="avatar">HV</span>
+            <div><strong id="user-name"></strong><small id="user-role"></small></div>
+          </div>
+        </div>
+      </header>
+
+      <main id="page-content" class="page-content" tabindex="-1"></main>
+    </div>
+    <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="/js/app.js" defer></script>
+</body>
+</html>

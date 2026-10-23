@@ -1,0 +1,1269 @@
+{
+  "evaluated_at": "2026-10-23T03:51:19.241Z",
+  "dataset": "test",
+  "configuration": {
+    "top_k": 3,
+    "chunk_size": 700,
+    "chunk_overlap": 120,
+    "embedding_provider": "local",
+    "embedding_model": "feature-hashing-v1"
+  },
+  "summary": {
+    "total": 50,
+    "hits": 48,
+    "hit_at_k": 0.96,
+    "mean_reciprocal_rank": 0.8967
+  },
+  "results": [
+    {
+      "test_id": "RT-01-01",
+      "topic": "bien-va-kieu-du-lieu",
+      "question": "Trong JavaScript, “let” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/01-bien-va-kieu-du-lieu.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0.299392
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Phạm vi của biến",
+          "score": 0.174574
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Vòng lặp for",
+          "score": 0.110264
+        }
+      ]
+    },
+    {
+      "test_id": "RT-01-02",
+      "topic": "bien-va-kieu-du-lieu",
+      "question": "Trong JavaScript, “var” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/01-bien-va-kieu-du-lieu.md",
+      "hit": false,
+      "rank": null,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Object literal và thuộc tính",
+          "score": 0.12898
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Chọn vòng lặp",
+          "score": 0.114332
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Cách tổ chức module",
+          "score": 0.099504
+        }
+      ]
+    },
+    {
+      "test_id": "RT-01-03",
+      "topic": "bien-va-kieu-du-lieu",
+      "question": "Trong JavaScript, “kiểu nguyên thủy” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/01-bien-va-kieu-du-lieu.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Kiểu dữ liệu nguyên thủy",
+          "score": 0.232273
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Giá trị và tham chiếu",
+          "score": 0.18971
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Object literal và thuộc tính",
+          "score": 0.183847
+        }
+      ]
+    },
+    {
+      "test_id": "RT-01-04",
+      "topic": "bien-va-kieu-du-lieu",
+      "question": "Trong JavaScript, “null” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/01-bien-va-kieu-du-lieu.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Kiểu dữ liệu nguyên thủy",
+          "score": 0.334263
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Giá trị truthy và falsy",
+          "score": 0.182574
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Toán tử logic",
+          "score": 0.13728
+        }
+      ]
+    },
+    {
+      "test_id": "RT-01-05",
+      "topic": "bien-va-kieu-du-lieu",
+      "question": "Trong JavaScript, “so sánh nghiêm ngặt” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/01-bien-va-kieu-du-lieu.md",
+      "hit": true,
+      "rank": 2,
+      "retrieved": [
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "switch",
+          "score": 0.29699
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "So sánh và chuỗi mẫu",
+          "score": 0.171359
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Sắp xếp",
+          "score": 0.169938
+        }
+      ]
+    },
+    {
+      "test_id": "RT-02-01",
+      "topic": "cau-lenh-dieu-kien",
+      "question": "Trong JavaScript, “if” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/02-cau-lenh-dieu-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "if, else if và else",
+          "score": 0.373815
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Optional chaining và guard clause",
+          "score": 0.270838
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Vòng lặp lồng nhau",
+          "score": 0.201517
+        }
+      ]
+    },
+    {
+      "test_id": "RT-02-02",
+      "topic": "cau-lenh-dieu-kien",
+      "question": "Trong JavaScript, “truthy” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/02-cau-lenh-dieu-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Toán tử logic",
+          "score": 0.205919
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Giá trị truthy và falsy",
+          "score": 0.182574
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Vòng lặp lồng nhau",
+          "score": 0.100759
+        }
+      ]
+    },
+    {
+      "test_id": "RT-02-03",
+      "topic": "cau-lenh-dieu-kien",
+      "question": "Trong JavaScript, “toán tử &&” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/02-cau-lenh-dieu-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Toán tử logic",
+          "score": 0.411839
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Toán tử ba ngôi",
+          "score": 0.25349
+        },
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Nguyên tắc dùng class trong đồ án",
+          "score": 0.235294
+        }
+      ]
+    },
+    {
+      "test_id": "RT-02-04",
+      "topic": "cau-lenh-dieu-kien",
+      "question": "Trong JavaScript, “toán tử ??” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/02-cau-lenh-dieu-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Toán tử logic",
+          "score": 0.411839
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Toán tử ba ngôi",
+          "score": 0.25349
+        },
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Nguyên tắc dùng class trong đồ án",
+          "score": 0.235294
+        }
+      ]
+    },
+    {
+      "test_id": "RT-02-05",
+      "topic": "cau-lenh-dieu-kien",
+      "question": "Trong JavaScript, “toán tử ba ngôi” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/02-cau-lenh-dieu-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Toán tử ba ngôi",
+          "score": 0.33874
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Toán tử logic",
+          "score": 0.220137
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Optional chaining và guard clause",
+          "score": 0.144769
+        }
+      ]
+    },
+    {
+      "test_id": "RT-03-01",
+      "topic": "vong-lap",
+      "question": "Trong JavaScript, “for” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/03-vong-lap.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Vòng lặp for",
+          "score": 0.220527
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "break và continue",
+          "score": 0.19245
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "for...of và for...in",
+          "score": 0.167102
+        }
+      ]
+    },
+    {
+      "test_id": "RT-03-02",
+      "topic": "vong-lap",
+      "question": "Trong JavaScript, “do...while” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/03-vong-lap.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "while và do...while",
+          "score": 0.086146
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Phạm vi của biến",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-03-03",
+      "topic": "vong-lap",
+      "question": "Trong JavaScript, “for...in” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/03-vong-lap.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "for...of và for...in",
+          "score": 0.167102
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Chọn vòng lặp",
+          "score": 0.114332
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-03-04",
+      "topic": "vong-lap",
+      "question": "Trong JavaScript, “continue” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/03-vong-lap.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "break và continue",
+          "score": 0.19245
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Vòng lặp lồng nhau",
+          "score": 0.100759
+        },
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "DOM là gì",
+          "score": 0.048113
+        }
+      ]
+    },
+    {
+      "test_id": "RT-03-05",
+      "topic": "vong-lap",
+      "question": "Trong JavaScript, “vòng lặp lồng nhau” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/03-vong-lap.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Vòng lặp lồng nhau",
+          "score": 0.335176
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Callback",
+          "score": 0.171679
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "break và continue",
+          "score": 0.143491
+        }
+      ]
+    },
+    {
+      "test_id": "RT-04-01",
+      "topic": "ham",
+      "question": "Trong JavaScript, “function declaration” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/04-ham.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Khai báo hàm và biểu thức hàm",
+          "score": 0.455661
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Arrow function",
+          "score": 0.227552
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Tham số, giá trị mặc định và rest parameter",
+          "score": 0.195646
+        }
+      ]
+    },
+    {
+      "test_id": "RT-04-02",
+      "topic": "ham",
+      "question": "Trong JavaScript, “arrow function” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/04-ham.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Arrow function",
+          "score": 0.417179
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Khai báo hàm và biểu thức hàm",
+          "score": 0.34717
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Tham số, giá trị mặc định và rest parameter",
+          "score": 0.277166
+        }
+      ]
+    },
+    {
+      "test_id": "RT-04-03",
+      "topic": "ham",
+      "question": "Trong JavaScript, “rest parameter” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/04-ham.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Tham số, giá trị mặc định và rest parameter",
+          "score": 0.146735
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Sao chép và destructuring",
+          "score": 0.086427
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Destructuring",
+          "score": 0.070667
+        }
+      ]
+    },
+    {
+      "test_id": "RT-04-04",
+      "topic": "ham",
+      "question": "Trong JavaScript, “closure” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/04-ham.md",
+      "hit": true,
+      "rank": 2,
+      "retrieved": [
+        {
+          "source": "documents/09-module.md",
+          "heading": "Named export và named import",
+          "score": 0.190693
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Khai báo hàm và biểu thức hàm",
+          "score": 0.130189
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Default export",
+          "score": 0.094072
+        }
+      ]
+    },
+    {
+      "test_id": "RT-04-05",
+      "topic": "ham",
+      "question": "Trong JavaScript, “hàm bậc cao” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/04-ham.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Callback và hàm bậc cao",
+          "score": 0.492805
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Hàm thuần và tác dụng phụ",
+          "score": 0.360278
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Phạm vi và closure",
+          "score": 0.274505
+        }
+      ]
+    },
+    {
+      "test_id": "RT-05-01",
+      "topic": "mang",
+      "question": "Trong JavaScript, “length” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/05-mang.md",
+      "hit": true,
+      "rank": 2,
+      "retrieved": [
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Khai báo hàm và biểu thức hàm",
+          "score": 0.130189
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Tạo và truy cập mảng",
+          "score": 0.116248
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Tham chiếu và sao chép nông",
+          "score": 0.095238
+        }
+      ]
+    },
+    {
+      "test_id": "RT-05-02",
+      "topic": "mang",
+      "question": "Trong JavaScript, “shift và unshift” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/05-mang.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Thêm và xóa phần tử",
+          "score": 0.119138
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Mục đích của module",
+          "score": 0.043769
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Named export và named import",
+          "score": 0.031782
+        }
+      ]
+    },
+    {
+      "test_id": "RT-05-03",
+      "topic": "mang",
+      "question": "Trong JavaScript, “splice” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/05-mang.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Thêm và xóa phần tử",
+          "score": 0.089353
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "map, filter và reduce",
+          "score": 0.069421
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-05-04",
+      "topic": "mang",
+      "question": "Trong JavaScript, “filter” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/05-mang.md",
+      "hit": true,
+      "rank": 3,
+      "retrieved": [
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Callback và hàm bậc cao",
+          "score": 0.108465
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Hàm thuần và tác dụng phụ",
+          "score": 0.103695
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Mảng hai chiều và chuỗi phương thức",
+          "score": 0.099627
+        }
+      ]
+    },
+    {
+      "test_id": "RT-05-05",
+      "topic": "mang",
+      "question": "Trong JavaScript, “find” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/05-mang.md",
+      "hit": true,
+      "rank": 2,
+      "retrieved": [
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "forEach và các phương thức mảng",
+          "score": 0.097243
+        },
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Tìm kiếm và kiểm tra",
+          "score": 0.091863
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-06-01",
+      "topic": "doi-tuong",
+      "question": "Trong JavaScript, “object literal” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/06-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Duyệt thuộc tính",
+          "score": 0.233658
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Prototype",
+          "score": 0.1659
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Kiểu dữ liệu nguyên thủy",
+          "score": 0.133705
+        }
+      ]
+    },
+    {
+      "test_id": "RT-06-02",
+      "topic": "doi-tuong",
+      "question": "Trong JavaScript, “ngoặc vuông” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/06-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Object literal và thuộc tính",
+          "score": 0.243629
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Phạm vi của biến",
+          "score": 0.116383
+        },
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Khai báo class và constructor",
+          "score": 0.094809
+        }
+      ]
+    },
+    {
+      "test_id": "RT-06-03",
+      "topic": "doi-tuong",
+      "question": "Trong JavaScript, “this” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/06-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Method và this",
+          "score": 0.266733
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Arrow function",
+          "score": 0.227552
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Tham số, giá trị mặc định và rest parameter",
+          "score": 0.097823
+        }
+      ]
+    },
+    {
+      "test_id": "RT-06-04",
+      "topic": "doi-tuong",
+      "question": "Trong JavaScript, “object spread” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/06-doi-tuong.md",
+      "hit": true,
+      "rank": 2,
+      "retrieved": [
+        {
+          "source": "documents/05-mang.md",
+          "heading": "Sao chép và destructuring",
+          "score": 0.259281
+        },
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Duyệt thuộc tính",
+          "score": 0.233658
+        },
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Quy tắc viết hàm dễ đọc",
+          "score": 0.081446
+        }
+      ]
+    },
+    {
+      "test_id": "RT-06-05",
+      "topic": "doi-tuong",
+      "question": "Trong JavaScript, “Object.entries” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/06-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/06-doi-tuong.md",
+          "heading": "Duyệt thuộc tính",
+          "score": 0.175243
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Optional chaining và guard clause",
+          "score": 0.038691
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-07-01",
+      "topic": "lop-va-huong-doi-tuong",
+      "question": "Trong JavaScript, “class” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/07-lop-va-huong-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Khai báo class và constructor",
+          "score": 0.284427
+        },
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Nguyên tắc dùng class trong đồ án",
+          "score": 0.235294
+        },
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Kế thừa với extends và super",
+          "score": 0.225813
+        }
+      ]
+    },
+    {
+      "test_id": "RT-07-02",
+      "topic": "lop-va-huong-doi-tuong",
+      "question": "Trong JavaScript, “new” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/07-lop-va-huong-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Khai báo class và constructor",
+          "score": 0.189618
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "async và await",
+          "score": 0.074176
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Promise",
+          "score": 0.074074
+        }
+      ]
+    },
+    {
+      "test_id": "RT-07-03",
+      "topic": "lop-va-huong-doi-tuong",
+      "question": "Trong JavaScript, “extends” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/07-lop-va-huong-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Kế thừa với extends và super",
+          "score": 0.150542
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0.074848
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Phạm vi của biến",
+          "score": 0.043644
+        }
+      ]
+    },
+    {
+      "test_id": "RT-07-04",
+      "topic": "lop-va-huong-doi-tuong",
+      "question": "Trong JavaScript, “static” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/07-lop-va-huong-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Thuộc tính và method static",
+          "score": 0.200502
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "if, else if và else",
+          "score": 0.046727
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-07-05",
+      "topic": "lop-va-huong-doi-tuong",
+      "question": "Trong JavaScript, “getter và setter” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/07-lop-va-huong-doi-tuong.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Getter và setter",
+          "score": 0.251478
+        },
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "instanceof",
+          "score": 0.149775
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "Vòng lặp lồng nhau",
+          "score": 0.067172
+        }
+      ]
+    },
+    {
+      "test_id": "RT-08-01",
+      "topic": "bat-dong-bo",
+      "question": "Trong JavaScript, “event loop” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/08-bat-dong-bo.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Đồng bộ, bất đồng bộ và event loop",
+          "score": 0.152302
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Callback",
+          "score": 0.142539
+        },
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "Lắng nghe sự kiện",
+          "score": 0.138633
+        }
+      ]
+    },
+    {
+      "test_id": "RT-08-02",
+      "topic": "bat-dong-bo",
+      "question": "Trong JavaScript, “Promise” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/08-bat-dong-bo.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Chạy tuần tự và song song",
+          "score": 0.254
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Promise",
+          "score": 0.222222
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Tránh lỗi thường gặp",
+          "score": 0.191565
+        }
+      ]
+    },
+    {
+      "test_id": "RT-08-03",
+      "topic": "bat-dong-bo",
+      "question": "Trong JavaScript, “then catch finally” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/08-bat-dong-bo.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Promise",
+          "score": 0.158377
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Tránh lỗi thường gặp",
+          "score": 0.051198
+        },
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "async và await",
+          "score": 0.039649
+        }
+      ]
+    },
+    {
+      "test_id": "RT-08-04",
+      "topic": "bat-dong-bo",
+      "question": "Trong JavaScript, “await” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/08-bat-dong-bo.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "async và await",
+          "score": 0.296704
+        },
+        {
+          "source": "documents/03-vong-lap.md",
+          "heading": "forEach và các phương thức mảng",
+          "score": 0.194487
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Re-export và file tổng hợp",
+          "score": 0.133631
+        }
+      ]
+    },
+    {
+      "test_id": "RT-08-05",
+      "topic": "bat-dong-bo",
+      "question": "Trong JavaScript, “Promise.allSettled” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/08-bat-dong-bo.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/08-bat-dong-bo.md",
+          "heading": "Chạy tuần tự và song song",
+          "score": 0.084667
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Phạm vi của biến",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-09-01",
+      "topic": "module",
+      "question": "Trong JavaScript, “module” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/09-module.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/09-module.md",
+          "heading": "ES module trên trình duyệt và Node.js",
+          "score": 0.522112
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Re-export và file tổng hợp",
+          "score": 0.400892
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Dynamic import",
+          "score": 0.354787
+        }
+      ]
+    },
+    {
+      "test_id": "RT-09-02",
+      "topic": "module",
+      "question": "Trong JavaScript, “import” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/09-module.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/09-module.md",
+          "heading": "Default export",
+          "score": 0.282216
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Re-export và file tổng hợp",
+          "score": 0.267261
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Dynamic import",
+          "score": 0.236525
+        }
+      ]
+    },
+    {
+      "test_id": "RT-09-03",
+      "topic": "module",
+      "question": "Trong JavaScript, “default export” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/09-module.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/09-module.md",
+          "heading": "Default export",
+          "score": 0.517396
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Named export và named import",
+          "score": 0.190693
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "ES module trên trình duyệt và Node.js",
+          "score": 0.09945
+        }
+      ]
+    },
+    {
+      "test_id": "RT-09-04",
+      "topic": "module",
+      "question": "Trong JavaScript, “ES module trong Node.js” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/09-module.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/09-module.md",
+          "heading": "ES module trên trình duyệt và Node.js",
+          "score": 0.458489
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Dynamic import",
+          "score": 0.331873
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Re-export và file tổng hợp",
+          "score": 0.214286
+        }
+      ]
+    },
+    {
+      "test_id": "RT-09-05",
+      "topic": "module",
+      "question": "Trong JavaScript, “dynamic import” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/09-module.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/09-module.md",
+          "heading": "Default export",
+          "score": 0.188144
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Re-export và file tổng hợp",
+          "score": 0.178174
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Dynamic import",
+          "score": 0.157683
+        }
+      ]
+    },
+    {
+      "test_id": "RT-10-01",
+      "topic": "dom-va-su-kien",
+      "question": "Trong JavaScript, “DOM” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/10-dom-va-su-kien.md",
+      "hit": false,
+      "rank": null,
+      "retrieved": [
+        {
+          "source": "documents/04-ham.md",
+          "heading": "Hàm thuần và tác dụng phụ",
+          "score": 0.103695
+        },
+        {
+          "source": "documents/07-lop-va-huong-doi-tuong.md",
+          "heading": "Nguyên tắc dùng class trong đồ án",
+          "score": 0.058824
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-10-02",
+      "topic": "dom-va-su-kien",
+      "question": "Trong JavaScript, “querySelectorAll” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/10-dom-va-su-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "DOM là gì",
+          "score": 0.096225
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Phạm vi của biến",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-10-03",
+      "topic": "dom-va-su-kien",
+      "question": "Trong JavaScript, “innerHTML” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/10-dom-va-su-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "Thay đổi nội dung an toàn",
+          "score": 0.130466
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "if, else if và else",
+          "score": 0.093454
+        },
+        {
+          "source": "documents/02-cau-lenh-dieu-kien.md",
+          "heading": "Giá trị truthy và falsy",
+          "score": 0.091287
+        }
+      ]
+    },
+    {
+      "test_id": "RT-10-04",
+      "topic": "dom-va-su-kien",
+      "question": "Trong JavaScript, “addEventListener” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/10-dom-va-su-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "Lắng nghe sự kiện",
+          "score": 0.103975
+        },
+        {
+          "source": "documents/09-module.md",
+          "heading": "Cách tổ chức module",
+          "score": 0.049752
+        },
+        {
+          "source": "documents/01-bien-va-kieu-du-lieu.md",
+          "heading": "Khai báo biến với let, const và var",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "test_id": "RT-10-05",
+      "topic": "dom-va-su-kien",
+      "question": "Trong JavaScript, “preventDefault” có ý nghĩa hoặc hoạt động như thế nào?",
+      "gold_source": "documents/10-dom-va-su-kien.md",
+      "hit": true,
+      "rank": 1,
+      "retrieved": [
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "Thời điểm chạy script",
+          "score": 0.127775
+        },
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "Form",
+          "score": 0.122628
+        },
+        {
+          "source": "documents/10-dom-va-su-kien.md",
+          "heading": "Hành vi mặc định và lan truyền sự kiện",
+          "score": 0.086793
+        }
+      ]
+    }
+  ]
+}

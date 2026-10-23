@@ -1,0 +1,352 @@
+[
+  {
+    "test_id": "RT-01-01",
+    "topic": "bien-va-kieu-du-lieu",
+    "question": "Trong JavaScript, “let” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "let khai báo biến có phạm vi khối và cho phép gán lại giá trị.",
+    "gold_source": "documents/01-bien-va-kieu-du-lieu.md"
+  },
+  {
+    "test_id": "RT-01-02",
+    "topic": "bien-va-kieu-du-lieu",
+    "question": "Trong JavaScript, “var” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "var có phạm vi hàm, cho phép khai báo lại và thường được hạn chế trong mã JavaScript hiện đại.",
+    "gold_source": "documents/01-bien-va-kieu-du-lieu.md"
+  },
+  {
+    "test_id": "RT-01-03",
+    "topic": "bien-va-kieu-du-lieu",
+    "question": "Trong JavaScript, “kiểu nguyên thủy” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Các kiểu nguyên thủy gồm string, number, boolean, undefined, null, bigint và symbol.",
+    "gold_source": "documents/01-bien-va-kieu-du-lieu.md"
+  },
+  {
+    "test_id": "RT-01-04",
+    "topic": "bien-va-kieu-du-lieu",
+    "question": "Trong JavaScript, “null” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "null là giá trị được gán chủ động để biểu diễn không có dữ liệu.",
+    "gold_source": "documents/01-bien-va-kieu-du-lieu.md"
+  },
+  {
+    "test_id": "RT-01-05",
+    "topic": "bien-va-kieu-du-lieu",
+    "question": "Trong JavaScript, “so sánh nghiêm ngặt” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Toán tử === so sánh cả giá trị và kiểu mà không tự chuyển kiểu trước khi so sánh.",
+    "gold_source": "documents/01-bien-va-kieu-du-lieu.md"
+  },
+  {
+    "test_id": "RT-02-01",
+    "topic": "cau-lenh-dieu-kien",
+    "question": "Trong JavaScript, “if” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "if chạy khối lệnh khi biểu thức điều kiện được chuyển thành true.",
+    "gold_source": "documents/02-cau-lenh-dieu-kien.md"
+  },
+  {
+    "test_id": "RT-02-02",
+    "topic": "cau-lenh-dieu-kien",
+    "question": "Trong JavaScript, “truthy” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Giá trị truthy là giá trị được chuyển thành true khi đặt trong ngữ cảnh boolean.",
+    "gold_source": "documents/02-cau-lenh-dieu-kien.md"
+  },
+  {
+    "test_id": "RT-02-03",
+    "topic": "cau-lenh-dieu-kien",
+    "question": "Trong JavaScript, “toán tử &&” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Toán tử && trả toán hạng falsy đầu tiên hoặc toán hạng cuối nếu tất cả đều truthy.",
+    "gold_source": "documents/02-cau-lenh-dieu-kien.md"
+  },
+  {
+    "test_id": "RT-02-04",
+    "topic": "cau-lenh-dieu-kien",
+    "question": "Trong JavaScript, “toán tử ??” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Toán tử ?? chỉ lấy vế phải khi vế trái là null hoặc undefined.",
+    "gold_source": "documents/02-cau-lenh-dieu-kien.md"
+  },
+  {
+    "test_id": "RT-02-05",
+    "topic": "cau-lenh-dieu-kien",
+    "question": "Trong JavaScript, “toán tử ba ngôi” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Toán tử điều kiện có dạng condition ? valueIfTrue : valueIfFalse và phù hợp cho lựa chọn ngắn.",
+    "gold_source": "documents/02-cau-lenh-dieu-kien.md"
+  },
+  {
+    "test_id": "RT-03-01",
+    "topic": "vong-lap",
+    "question": "Trong JavaScript, “for” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Vòng lặp for phù hợp khi cần phần khởi tạo, điều kiện dừng và bước cập nhật rõ ràng.",
+    "gold_source": "documents/03-vong-lap.md"
+  },
+  {
+    "test_id": "RT-03-02",
+    "topic": "vong-lap",
+    "question": "Trong JavaScript, “do...while” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "do...while chạy phần thân ít nhất một lần rồi mới kiểm tra điều kiện.",
+    "gold_source": "documents/03-vong-lap.md"
+  },
+  {
+    "test_id": "RT-03-03",
+    "topic": "vong-lap",
+    "question": "Trong JavaScript, “for...in” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "for...in duyệt tên thuộc tính có thể liệt kê của đối tượng.",
+    "gold_source": "documents/03-vong-lap.md"
+  },
+  {
+    "test_id": "RT-03-04",
+    "topic": "vong-lap",
+    "question": "Trong JavaScript, “continue” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "continue bỏ qua phần còn lại của lần lặp hiện tại và chuyển sang lần tiếp theo.",
+    "gold_source": "documents/03-vong-lap.md"
+  },
+  {
+    "test_id": "RT-03-05",
+    "topic": "vong-lap",
+    "question": "Trong JavaScript, “vòng lặp lồng nhau” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Hai vòng lặp mỗi vòng chạy n lần có thể tạo gần n bình phương lượt xử lý.",
+    "gold_source": "documents/03-vong-lap.md"
+  },
+  {
+    "test_id": "RT-04-01",
+    "topic": "ham",
+    "question": "Trong JavaScript, “function declaration” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Function declaration được hoisting nên có thể được gọi trước dòng khai báo trong cùng phạm vi.",
+    "gold_source": "documents/04-ham.md"
+  },
+  {
+    "test_id": "RT-04-02",
+    "topic": "ham",
+    "question": "Trong JavaScript, “arrow function” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Arrow function có cú pháp ngắn và không tạo this riêng.",
+    "gold_source": "documents/04-ham.md"
+  },
+  {
+    "test_id": "RT-04-03",
+    "topic": "ham",
+    "question": "Trong JavaScript, “rest parameter” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Rest parameter dùng ... để gom các đối số còn lại thành một mảng.",
+    "gold_source": "documents/04-ham.md"
+  },
+  {
+    "test_id": "RT-04-04",
+    "topic": "ham",
+    "question": "Trong JavaScript, “closure” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Closure cho phép hàm ghi nhớ và truy cập môi trường từ vựng nơi nó được tạo.",
+    "gold_source": "documents/04-ham.md"
+  },
+  {
+    "test_id": "RT-04-05",
+    "topic": "ham",
+    "question": "Trong JavaScript, “hàm bậc cao” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Hàm bậc cao nhận hàm làm đối số hoặc trả về một hàm.",
+    "gold_source": "documents/04-ham.md"
+  },
+  {
+    "test_id": "RT-05-01",
+    "topic": "mang",
+    "question": "Trong JavaScript, “length” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Thuộc tính length cho biết số phần tử của mảng.",
+    "gold_source": "documents/05-mang.md"
+  },
+  {
+    "test_id": "RT-05-02",
+    "topic": "mang",
+    "question": "Trong JavaScript, “shift và unshift” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "shift xóa phần tử đầu, còn unshift thêm phần tử vào đầu mảng.",
+    "gold_source": "documents/05-mang.md"
+  },
+  {
+    "test_id": "RT-05-03",
+    "topic": "mang",
+    "question": "Trong JavaScript, “splice” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "splice thay đổi mảng gốc bằng cách xóa hoặc chèn phần tử tại vị trí xác định.",
+    "gold_source": "documents/05-mang.md"
+  },
+  {
+    "test_id": "RT-05-04",
+    "topic": "mang",
+    "question": "Trong JavaScript, “filter” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "filter tạo mảng mới chỉ gồm các phần tử làm callback trả về true.",
+    "gold_source": "documents/05-mang.md"
+  },
+  {
+    "test_id": "RT-05-05",
+    "topic": "mang",
+    "question": "Trong JavaScript, “find” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "find trả về phần tử đầu tiên thỏa điều kiện hoặc undefined nếu không tìm thấy.",
+    "gold_source": "documents/05-mang.md"
+  },
+  {
+    "test_id": "RT-06-01",
+    "topic": "doi-tuong",
+    "question": "Trong JavaScript, “object literal” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Object literal dùng cặp ngoặc nhọn để tạo đối tượng gồm các cặp khóa và giá trị.",
+    "gold_source": "documents/06-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-06-02",
+    "topic": "doi-tuong",
+    "question": "Trong JavaScript, “ngoặc vuông” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Cú pháp ngoặc vuông dùng khi tên thuộc tính nằm trong biến hoặc được tạo động.",
+    "gold_source": "documents/06-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-06-03",
+    "topic": "doi-tuong",
+    "question": "Trong JavaScript, “this” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Trong lời gọi object.method(), this của method thông thường thường là object đứng trước dấu chấm.",
+    "gold_source": "documents/06-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-06-04",
+    "topic": "doi-tuong",
+    "question": "Trong JavaScript, “object spread” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Cú pháp {...source} tạo bản sao nông nên đối tượng lồng nhau vẫn có thể dùng chung tham chiếu.",
+    "gold_source": "documents/06-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-06-05",
+    "topic": "doi-tuong",
+    "question": "Trong JavaScript, “Object.entries” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Object.entries trả về mảng các cặp [key, value] của thuộc tính trực tiếp có thể liệt kê.",
+    "gold_source": "documents/06-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-07-01",
+    "topic": "lop-va-huong-doi-tuong",
+    "question": "Trong JavaScript, “class” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "class mô tả cách tạo các đối tượng có cùng dữ liệu và hành vi.",
+    "gold_source": "documents/07-lop-va-huong-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-07-02",
+    "topic": "lop-va-huong-doi-tuong",
+    "question": "Trong JavaScript, “new” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Toán tử new tạo instance, liên kết prototype và gọi constructor của class.",
+    "gold_source": "documents/07-lop-va-huong-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-07-03",
+    "topic": "lop-va-huong-doi-tuong",
+    "question": "Trong JavaScript, “extends” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "extends tạo lớp con kế thừa hành vi từ lớp cha.",
+    "gold_source": "documents/07-lop-va-huong-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-07-04",
+    "topic": "lop-va-huong-doi-tuong",
+    "question": "Trong JavaScript, “static” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Thành viên static thuộc về class và được gọi qua tên class thay vì qua instance.",
+    "gold_source": "documents/07-lop-va-huong-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-07-05",
+    "topic": "lop-va-huong-doi-tuong",
+    "question": "Trong JavaScript, “getter và setter” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Getter và setter kiểm soát cách đọc hoặc gán một giá trị theo cú pháp thuộc tính.",
+    "gold_source": "documents/07-lop-va-huong-doi-tuong.md"
+  },
+  {
+    "test_id": "RT-08-01",
+    "topic": "bat-dong-bo",
+    "question": "Trong JavaScript, “event loop” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Event loop đưa callback sẵn sàng vào thực thi khi call stack đã trống.",
+    "gold_source": "documents/08-bat-dong-bo.md"
+  },
+  {
+    "test_id": "RT-08-02",
+    "topic": "bat-dong-bo",
+    "question": "Trong JavaScript, “Promise” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Promise biểu diễn kết quả tương lai của một thao tác bất đồng bộ.",
+    "gold_source": "documents/08-bat-dong-bo.md"
+  },
+  {
+    "test_id": "RT-08-03",
+    "topic": "bat-dong-bo",
+    "question": "Trong JavaScript, “then catch finally” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "then xử lý thành công, catch xử lý lỗi và finally chạy sau cùng dù thành công hay thất bại.",
+    "gold_source": "documents/08-bat-dong-bo.md"
+  },
+  {
+    "test_id": "RT-08-04",
+    "topic": "bat-dong-bo",
+    "question": "Trong JavaScript, “await” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "await chờ một Promise bên trong hàm async và ném lỗi nếu Promise bị từ chối.",
+    "gold_source": "documents/08-bat-dong-bo.md"
+  },
+  {
+    "test_id": "RT-08-05",
+    "topic": "bat-dong-bo",
+    "question": "Trong JavaScript, “Promise.allSettled” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Promise.allSettled chờ tất cả Promise và trả trạng thái của từng tác vụ.",
+    "gold_source": "documents/08-bat-dong-bo.md"
+  },
+  {
+    "test_id": "RT-09-01",
+    "topic": "module",
+    "question": "Trong JavaScript, “module” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Module chia chương trình thành các file có trách nhiệm rõ và phạm vi riêng.",
+    "gold_source": "documents/09-module.md"
+  },
+  {
+    "test_id": "RT-09-02",
+    "topic": "module",
+    "question": "Trong JavaScript, “import” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "import khai báo phụ thuộc và lấy giá trị được export từ module khác.",
+    "gold_source": "documents/09-module.md"
+  },
+  {
+    "test_id": "RT-09-03",
+    "topic": "module",
+    "question": "Trong JavaScript, “default export” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Mỗi module có tối đa một default export và bên import có thể tự đặt tên.",
+    "gold_source": "documents/09-module.md"
+  },
+  {
+    "test_id": "RT-09-04",
+    "topic": "module",
+    "question": "Trong JavaScript, “ES module trong Node.js” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "Node.js nhận ES module qua đuôi .mjs hoặc package.json có type là module.",
+    "gold_source": "documents/09-module.md"
+  },
+  {
+    "test_id": "RT-09-05",
+    "topic": "module",
+    "question": "Trong JavaScript, “dynamic import” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "import() trả về Promise và tải module khi chương trình cần đến.",
+    "gold_source": "documents/09-module.md"
+  },
+  {
+    "test_id": "RT-10-01",
+    "topic": "dom-va-su-kien",
+    "question": "Trong JavaScript, “DOM” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "DOM biểu diễn tài liệu HTML thành cây đối tượng mà JavaScript có thể đọc và thay đổi.",
+    "gold_source": "documents/10-dom-va-su-kien.md"
+  },
+  {
+    "test_id": "RT-10-02",
+    "topic": "dom-va-su-kien",
+    "question": "Trong JavaScript, “querySelectorAll” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "querySelectorAll trả NodeList gồm tất cả phần tử khớp selector.",
+    "gold_source": "documents/10-dom-va-su-kien.md"
+  },
+  {
+    "test_id": "RT-10-03",
+    "topic": "dom-va-su-kien",
+    "question": "Trong JavaScript, “innerHTML” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "innerHTML phân tích chuỗi thành HTML và có rủi ro chèn mã nếu dùng dữ liệu chưa làm sạch.",
+    "gold_source": "documents/10-dom-va-su-kien.md"
+  },
+  {
+    "test_id": "RT-10-04",
+    "topic": "dom-va-su-kien",
+    "question": "Trong JavaScript, “addEventListener” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "addEventListener đăng ký hàm xử lý sự kiện mà không ghi đè listener khác.",
+    "gold_source": "documents/10-dom-va-su-kien.md"
+  },
+  {
+    "test_id": "RT-10-05",
+    "topic": "dom-va-su-kien",
+    "question": "Trong JavaScript, “preventDefault” có ý nghĩa hoặc hoạt động như thế nào?",
+    "gold_answer": "preventDefault ngăn hành vi mặc định của sự kiện như gửi form hoặc mở liên kết.",
+    "gold_source": "documents/10-dom-va-su-kien.md"
+  }
+]
