@@ -1,18 +1,5 @@
 # Đồ án: Hệ thống học tập trực tuyến tích hợp RAG
 
-Thư mục này là kết quả triển khai **Tuần 1 đến Tuần 6** của đề cương. Tuần 1-5 tập trung vào dữ liệu và pipeline RAG; Tuần 6 bổ sung website, đăng nhập/phân quyền, khóa học, bài học, tài liệu và tiến độ.
-
-## Kết quả đã có
-
-| Tuần | Nội dung | Sản phẩm |
-|---|---|---|
-| 1 | Khảo sát và chốt phạm vi | `docs/01-yeu-cau-va-pham-vi.md` |
-| 2 | Chuẩn hóa dữ liệu | 10 tài liệu JavaScript, 120 câu hỏi, tập phát triển 20 câu, bộ test RAG 50 câu |
-| 3 | Thiết kế hệ thống và pipeline | `docs/03-thiet-ke-he-thong.md`, cấu hình môi trường |
-| 4 | Chia chunk, embedding, lưu vector | Mã trong `src/services`, lệnh `npm run index` |
-| 5 | Truy xuất Top-k, tạo context, gọi LLM, trả nguồn | Lệnh `npm run ask`, `npm run eval:retrieval` |
-| 6 | Giao diện và chức năng học tập cơ bản | HTML/CSS/JavaScript, Express, MySQL, JWT và bcrypt |
-
 ## Yêu cầu môi trường
 
 - Node.js 18 trở lên.
@@ -46,19 +33,10 @@ npm run seed:demo
 npm run dev
 ```
 
-Mở `http://127.0.0.1:3000`. Xem `docs/06-giao-dien-va-chuc-nang.md` để biết tài khoản demo và ma trận phân quyền.
-
-Có thể giới hạn truy xuất theo chủ đề:
-
-```powershell
-npm run ask -- "Promise dùng để làm gì?" --topic bat-dong-bo
-```
-
 ## Cấu trúc chính
 
 ```text
 datn/
-├── docs/                 Tài liệu phân tích, thiết kế và kết quả Tuần 1-6
 ├── database/             Schema MySQL, dữ liệu khởi tạo và mẫu tài khoản ứng dụng
 ├── documents/            Học liệu JavaScript dùng làm nguồn RAG
 ├── data/
@@ -73,11 +51,3 @@ datn/
     └── scripts/          Các lệnh chạy từ terminal
 └── server.js             Điểm khởi động Express
 ```
-
-## Giới hạn kỹ thuật hiện tại
-
-Chế độ embedding cục bộ dùng feature hashing với vector 4.096 chiều. Cấu hình này đạt Hit@3 tốt hơn cấu hình 512 và 2.048 chiều trên tập phát triển. Feature hashing được dùng để kiểm tra pipeline trên máy cục bộ và không phải mô hình embedding đã huấn luyện. Khi có dịch vụ embedding, đặt `EMBEDDING_PROVIDER=api` rồi tạo lại chỉ mục.
-
-Quy trình truy xuất và kết quả đánh giá được ghi tại `docs/05-truy-xuat-va-thuc-nghiem.md`.
-
-Hướng dẫn cấu hình dịch vụ embedding và LLM nằm trong `docs/04a-cau-hinh-embedding-va-llm.md`. Hai lệnh kiểm tra là `npm run check:models` và `npm run eval:generation`.
