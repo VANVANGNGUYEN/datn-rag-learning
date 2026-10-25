@@ -1,4 +1,5 @@
 .env
+docs/
 database/create-app-user.sql
 node_modules/
 data/vector-store/*.json
